@@ -89,10 +89,11 @@ public struct IslandEdits: Equatable {
     public var fieldItems: [Int: PocketItem] = [:]
     public var buildings: [Int: BuildingPosition] = [:]
     public var bridgeTypes: [Int: UInt16] = [:]
+    public var inclineTypes: [Int: UInt16] = [:]
     public var plaza: PlazaPosition?
     public var villagers: [Int: VillagerEdit] = [:]
     public init() {}
-    public var isEmpty: Bool { terrain.isEmpty && fieldItems.isEmpty && buildings.isEmpty && bridgeTypes.isEmpty && plaza == nil && villagers.isEmpty }
+    public var isEmpty: Bool { terrain.isEmpty && fieldItems.isEmpty && buildings.isEmpty && bridgeTypes.isEmpty && inclineTypes.isEmpty && plaza == nil && villagers.isEmpty }
     public func applying(to main: inout Data) throws {
         guard main.count == SaveLayout.mainSize else { throw SaveError("Unexpected island file size.") }
         let snapshot = IslandSnapshot(main: main)
@@ -125,6 +126,13 @@ public struct IslandEdits: Equatable {
             let offset = IslandLayout.buildings + index * IslandLayout.buildingSize
             main.put16(type.id, at: offset + 8)
             main[offset + 10] = type.style.rawValue
+        }
+        for (index, subtype) in inclineTypes {
+            guard (0..<IslandLayout.buildingCount).contains(index), snapshot.building(index).kind == 27,
+                  InclineStyle(rawValue: subtype) != nil else { throw SaveError("Choose a known style for an existing incline.") }
+            let offset = IslandLayout.buildings + index * IslandLayout.buildingSize
+            // Inclines use only the model field; TypeArg is not a bridge material here.
+            main.put16(subtype, at: offset + 8)
         }
         if let plaza {
             // Match the original NHSE plaza controls, independently of building bounds.
@@ -176,7 +184,9 @@ public struct IslandSnapshot {
     }
     public func building(_ index: Int, edits: IslandEdits = .init()) -> MapBuilding {
         let offset = IslandLayout.buildings + index * 20
-        return MapBuilding(id: index, kind: main.u16(offset), position: edits.buildings[index] ?? BuildingPosition(x: main.u16(offset + 2), y: main.u16(offset + 4), angle: main[offset + 6]), subtype: edits.bridgeTypes[index] ?? main.u16(offset + 8))
+        let kind = main.u16(offset)
+        let subtype = (kind == 26 ? edits.bridgeTypes[index] : kind == 27 ? edits.inclineTypes[index] : nil) ?? main.u16(offset + 8)
+        return MapBuilding(id: index, kind: kind, position: edits.buildings[index] ?? BuildingPosition(x: main.u16(offset + 2), y: main.u16(offset + 4), angle: main[offset + 6]), subtype: subtype)
     }
     public func villager(_ index: Int, edits: IslandEdits = .init()) -> VillagerEdit {
         if let record = edits.villagers[index] { return record }

@@ -2,7 +2,7 @@
 
 Created 30 October 2026 for the native Mac editor. These are original AI-generated fan illustrations in an Animal Crossing-inspired style, made with the built-in imagegen tool. They are not official Nintendo/NHSE artwork. The existing inventory icons retain their separate attribution.
 
-The 14 transparent PNGs are bundled as `building-icon-*.png` in `ACNH-Save-Editor/macOS/Sources/ACNHMac/Resources/`. Full prompts are in `building-icon-prompts.json`. Each category has its own icon; the eight player slots and ten villager slots share their respective house icon. No resident portraits are used.
+The 14 category PNGs and 16 style-specific infrastructure PNGs are bundled as `building-icon-*.png` in `ACNH-Save-Editor/macOS/Sources/ACNHMac/Resources/`. Full prompts are in `building-icon-prompts.json`. Each category has its own icon; the eight player slots and ten villager slots share their respective house icon. No resident portraits are used.
 
 ## Placement dimensions
 
@@ -31,7 +31,7 @@ All measurements below are full terrain tiles. Two saved building-coordinate ste
 
 **This does not complete exact spacing for every building.** Existing NHSE marker coordinates are preserved. Size guides are centered on those markers; the per-model offset between the saved anchor, placement plot, entrance and physical collision mask has not been verified in game. The inspector explicitly calls out this limitation. Do not interpret an outline or lack of overlap as a valid in-game placement.
 
-Infrastructure artwork uses the editor's existing quarter-turn angle convention; diagonal bridge models add a 45-degree illustration turn. The correspondence of these illustration angles and per-model anchors to real game geometry still needs in-game validation. Unknown bridge types and diagonal bridges deliberately receive no invented rectangle. The icon's size is illustrative when a measured plot is unavailable.
+Infrastructure artwork and plot guides share the corrected angle mapping documented below; diagonal bridge models add a 45-degree illustration turn. Per-model anchors and collision geometry still need in-game validation. Unknown bridge types and diagonal bridges deliberately receive no invented rectangle. The icon's size is illustrative when a measured plot is unavailable.
 
 The plot guide does not alter saves, enforce collisions, repair bridge connections, or automatically move buildings. Bridge subtype bytes are read for visualization and remain unchanged when positions are edited. The Bridge style selector explicitly edits the subtype and matching material while preserving geometry. No inaccurate generic 2 × 2 footprint is advertised as exact.
 
@@ -57,6 +57,31 @@ Upstream references: [MainSave plaza fields](https://github.com/kwsch/NHSE/blob/
 
 ## Bridge style editing
 
-`BridgeType.swift` maps NHSE's 54 defined bridge models to nine material families and six geometries (three straight spans and three diagonal model lengths). The eight standard families are offered for style changes; NHSE's reserved family is shown only when already present. Undefined types 50/51 and unknown models remain readable but cannot be restyled. A style change writes only `Building.Type` (record +8, uint16) and `Building.TypeArg` (+10, byte material), preserving position, angle, flags, padding, unique ID, and other records. Moving a bridge alone does not normalize its material. The existing generic bridge artwork remains illustrative; the map guide follows the edited model.
+`BridgeType.swift` maps NHSE's 54 defined bridge models to nine material families and six geometries (three straight spans and three diagonal model lengths). The eight standard families are offered for style changes; NHSE's reserved family is shown only when already present. Undefined types 50/51 and unknown models remain readable but cannot be restyled. A style change writes only `Building.Type` (record +8, uint16) and `Building.TypeArg` (+10, byte material), preserving position, angle, flags, padding, unique ID, and other records. Moving a bridge alone does not normalize its material. The map guide follows the edited model; style-specific overhead artwork is described below.
 
 References at the same NHSE revision: [BridgeType](https://github.com/kwsch/NHSE/blob/cb0745415945776f73375bf0a434a8babf059307/NHSE.Core/Structures/Building/BridgeType.cs), [BridgeMaterial](https://github.com/kwsch/NHSE/blob/cb0745415945776f73375bf0a434a8babf059307/NHSE.Core/Structures/Building/BridgeMaterial.cs), and [Building record](https://github.com/kwsch/NHSE/blob/cb0745415945776f73375bf0a434a8babf059307/NHSE.Core/Structures/Building/Building.cs).
+
+## Overhead infrastructure artwork (21 November 2026)
+
+The eight standard bridge styles and eight incline styles now use the user-approved zenithal artwork in `Infrastructure/bridge-sheet.png` and `Infrastructure/incline-sheet.png`. These are generated fan illustrations, based on the visual references at https://nookipedia.com/wiki/Bridge and https://nookipedia.com/wiki/Incline, not extracted game models. The approved original sheets are retained unchanged. `macOS/scripts/import-infrastructure-icons.swift` deterministically slices the sheets, excludes captions, removes tiny alpha specks and exports padded PNGs with a maximum dimension of 512 pixels.
+
+`BuildingIconStore` chooses the sprite from the saved/draft subtype, including all span and diagonal variants of each bridge family. Both the map and building inspector refresh with style edits, undo, redo and revert. Reserved or unknown models retain a generic fallback, now also overhead (stone bridge or natural incline).
+
+Infrastructure artwork preserves its native aspect ratio and is fitted within the selection bounds after applying the shared infrastructure angle mapping and diagonal bridge turn. Diagonal artwork remains illustrative and deliberately receives no new placement guide. Per-model anchor correspondence still requires verification.
+
+Overhead integration verification: all 14 selected native tests passed (sprite resources and alpha, every bridge family/geometry, cardinal and diagonal rendering fits, map coordinates, placement guides, incline undo/revert and export/reopen). Universal release packaging is checked separately.
+
+Native visual check completed on 21 November 2026 in the signed universal overhead-icons build. The bundled preview's Log → Red zen bridge change updated both inspector and map artwork at 90°. A disposable synthetic island exercised the Stone staircase → Blue steel staircase change and 0° → 90° rotation. Undo restored each step independently, redo restored both, Revert Incline Style preserved rotation, and Revert Building returned the draft to zero changes. Icons showed transparent exteriors and undistorted proportions. The checked state is captured in `Infrastructure/visual-check.png`. No source save was written; the synthetic draft was reverted completely. These checks verified style updates and internal alignment, but did not catch the incorrect starting direction against real terrain; see the correction below.
+
+## Plaza appearance (21 November 2026)
+
+The map now draws the plaza as an opaque brown rounded rectangle with a white label. The selected plaza receives a teal outline. The fill is a plain vector shape, with no texture or image asset; it remains behind the building icons. The existing 12 × 10 tile bounds, upper-left anchor, selection, movement, and save coordinates are unchanged.
+
+
+## Infrastructure direction correction (21 November 2026)
+
+The saved direction had been treated as the sprite direction even though all infrastructure sprites have a vertical base. Both the footprint rectangle and sprite were therefore 90 degrees out of alignment with terrain. The reported bridge at saved position (172, 144), angle 1, subtype 13 crosses the river north-south; the old guide was incorrectly 6 tiles wide and 4 deep.
+
+`InfrastructureOrientation` now converts saved angles 0/1/2/3 to sprite rotations 90/180/270/0 degrees. Straight bridge and incline footprint dimensions use the same quarter-turn conversion, so selection and hit testing rotate together with the artwork. Angle 1 now produces a 4 × 6 guide for that bridge and a 2 × 4 guide for an incline. Diagonal sprites retain their additional 45-degree turn. The save angle and position fields are unchanged.
+
+Fourteen selected tests passed, covering all four sprite directions, diagonal models, aspect ratio, guide dimensions, map hit targets at multiple zoom levels, and bridge export preservation. Native release visual verification used a disposable copy of the user's island: Bridge [8] now crosses the river north-south with a matching 4 × 6 selection rectangle. Incline directions are covered by the four-angle geometry and sprite tests; a separate native incline inspection was interrupted by user interaction. This is not a claim of verified collision geometry or landing anchors.

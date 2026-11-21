@@ -26,7 +26,9 @@ struct Catalog {
         self.items = items.sorted { $0.name.localizedStandardCompare($1.name) == .orderedAscending }
         self.byID = Dictionary(uniqueKeysWithValues: items.map { ($0.id, $0) })
     }
-    func name(_ slot: PocketItem, emptyLabel: String = "Empty pocket") -> String { slot.isEmpty ? emptyLabel : byID[slot.id]?.name ?? String(format: "Unknown item (%04X)", slot.id) }
+    func name(_ slot: PocketItem, emptyLabel: String = "Empty pocket") -> String {
+        slot.isEmpty ? emptyLabel : byID[slot.id]?.name ?? FieldObjectCatalog.shared.byID[slot.id]?.name ?? String(format: "Unknown item (%04X)", slot.id)
+    }
     func quantity(_ slot: PocketItem) -> String {
         guard !slot.isEmpty, let item = byID[slot.id], item.maxStack > 1 else { return "" }
         return "×\(slot.storedCount + 1)"
@@ -130,6 +132,10 @@ typealias Loadout = PocketLoadout
                 let before = world.building(index).subtype, after = island.bridgeTypes[index]!
                 result.append("Bridge [\(index + 1)]: \(BridgeType(before)?.name ?? "Type \(before)") → \(BridgeType(after)?.name ?? "Type \(after)")")
             }
+            for index in island.inclineTypes.keys.sorted() {
+                let before = world.building(index).subtype, after = island.inclineTypes[index]!
+                result.append("Incline [\(index + 1)]: \(InclineStyle(rawValue: before)?.name ?? "Type \(before)") → \(InclineStyle(rawValue: after)?.name ?? "Type \(after)")")
+            }
             for index in island.buildings.keys.sorted() {
                 let before = world.building(index), after = island.buildings[index]!
                 result.append("\(before.name): (\(before.position.x), \(before.position.y)) → (\(after.x), \(after.y)), rotation \(Int(after.angle) * 90)°")
@@ -162,6 +168,7 @@ typealias Loadout = PocketLoadout
             next.island.terrain = next.island.terrain.filter { world.terrain($0.key) != $0.value }
             next.island.fieldItems = next.island.fieldItems.filter { world.fieldItem($0.key) != $0.value }
             next.island.bridgeTypes = next.island.bridgeTypes.filter { world.building($0.key).subtype != $0.value }
+            next.island.inclineTypes = next.island.inclineTypes.filter { world.building($0.key).subtype != $0.value }
             next.island.buildings = next.island.buildings.filter { world.building($0.key).position != $0.value }
             next.island.villagers = next.island.villagers.filter { world.villager($0.key) != $0.value }
         }

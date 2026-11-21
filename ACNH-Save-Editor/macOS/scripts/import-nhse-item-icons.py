@@ -10,6 +10,7 @@ import re
 import shutil
 import struct
 import sys
+from importlib.util import spec_from_file_location, module_from_spec
 
 
 def generate(upstream):
@@ -58,6 +59,11 @@ def generate(upstream):
     for key in set(mapping.values()):
         assert (resources / (key + ".png")).is_file(), key
     print(f"Imported {len(files)} inventory icons; {len(mapping)} item-ID mappings")
+    # Keep the field-name/explicit-icon lookup synchronized with future imports.
+    spec = spec_from_file_location("field_objects", root / "scripts/import-field-objects.py")
+    field_objects = module_from_spec(spec)
+    spec.loader.exec_module(field_objects)
+    field_objects.generate(upstream / "NHSE.Core/Structures/Item/FieldItem/FieldItemList.cs")
     for item_id in [0x9C9, 0x9C5]:
         print(hex(item_id), mapping.get(str(item_id)))
 

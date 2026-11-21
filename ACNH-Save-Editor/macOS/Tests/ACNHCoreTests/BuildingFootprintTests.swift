@@ -18,8 +18,8 @@ final class BuildingFootprintTests: XCTestCase {
         for (subtype, span) in [(0,3),(1,4),(2,5),(39,3),(25,4),(40,5),(49,3),(38,4),(52,5)] {
             let b = building(26, subtype: UInt16(subtype))
             XCTAssertEqual(BuildingFootprint.bridgeSpan(b.subtype), Double(span))
-            XCTAssertEqual(BuildingFootprint.forBuilding(b)?.depth, Double(span + 2))
-            XCTAssertEqual(BuildingFootprint.forBuilding(building(26, subtype: UInt16(subtype), angle: 1))?.width, Double(span + 2))
+            XCTAssertEqual(BuildingFootprint.forBuilding(b)?.width, Double(span + 2))
+            XCTAssertEqual(BuildingFootprint.forBuilding(building(26, subtype: UInt16(subtype), angle: 1))?.depth, Double(span + 2))
         }
         for subtype in [3,4,5,53,54,55,50,51,65535] {
             XCTAssertNil(BuildingFootprint.forBuilding(building(26, subtype: UInt16(subtype))))
@@ -30,8 +30,8 @@ final class BuildingFootprintTests: XCTestCase {
     func testInclineDimensionsRotateAndUnknownAnglesHaveNoGuide() {
         for angle: UInt8 in 0..<4 {
             let plot = BuildingFootprint.forBuilding(building(27, angle: angle))
-            XCTAssertEqual(plot?.width, angle % 2 == 0 ? 2 : 4)
-            XCTAssertEqual(plot?.depth, angle % 2 == 0 ? 4 : 2)
+            XCTAssertEqual(plot?.width, angle % 2 == 0 ? 4 : 2)
+            XCTAssertEqual(plot?.depth, angle % 2 == 0 ? 2 : 4)
         }
         XCTAssertNil(BuildingFootprint.forBuilding(building(27, angle: 8)))
     }
@@ -55,11 +55,24 @@ final class BuildingFootprintTests: XCTestCase {
         edits.buildings[0] = BuildingPosition(x: 150, y: 100, angle: 1)
         let moved = world.building(0, edits: edits)
         XCTAssertEqual(moved.subtype, 40)
-        XCTAssertEqual(BuildingFootprint.forBuilding(moved)?.width, 7)
+        XCTAssertEqual(BuildingFootprint.forBuilding(moved)?.depth, 7)
         var changed = main
         try edits.applying(to: &changed)
         XCTAssertEqual(changed.u16(offset + 8), 40)
         XCTAssertEqual(IslandSnapshot(main: changed).building(0).position, moved.position)
         XCTAssertEqual(world.main, main)
+    }
+
+    func testReportedNorthSouthBridgeUsesATallGuideAndMatchingHitTarget() {
+        // Reported bridge: saved angle 1 (90°), four-tile water span. Its path
+        // crosses the river north-south, rather than running east-west along it.
+        let bridge = MapBuilding(id: 7, kind: 26, position: BuildingPosition(x: 172, y: 144, angle: 1), subtype: 13)
+        for zoom in [3.0, 8, 14] {
+            let bounds = MapCoordinates.buildingBounds(bridge, zoom: zoom)
+            XCTAssertEqual(bounds.width, 4 * zoom)
+            XCTAssertEqual(bounds.height, 6 * zoom)
+            XCTAssertEqual(MapCoordinates.buildingAt(x: bounds.midX, y: bounds.minY + 0.1, zoom: zoom, buildings: [bridge]), 7)
+            XCTAssertNil(MapCoordinates.buildingAt(x: bounds.midX + 2.5 * zoom, y: bounds.midY, zoom: zoom, buildings: [bridge]))
+        }
     }
 }

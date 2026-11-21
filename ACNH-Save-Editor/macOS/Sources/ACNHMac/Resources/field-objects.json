@@ -1,0 +1,3754 @@
+{
+  "60000": {
+    "heldItemID": 2799,
+    "icon": "item-icon-PltOak",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOak4",
+    "name": "hardwood tree"
+  },
+  "60001": {
+    "heldItemID": 3360,
+    "icon": "item-icon-PltApple",
+    "kind": "PltTreeOak",
+    "model": "PltTreeApple",
+    "name": "apple tree"
+  },
+  "60002": {
+    "heldItemID": 3365,
+    "icon": "item-icon-PltOrange",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOrange",
+    "name": "orange tree"
+  },
+  "60005": {
+    "heldItemID": 5152,
+    "icon": "item-icon-PltOak",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOak0",
+    "name": "nursery hardwood"
+  },
+  "60006": {
+    "heldItemID": 2796,
+    "icon": "item-icon-PltOak",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOak1",
+    "name": "small young hardwood"
+  },
+  "60007": {
+    "heldItemID": 2797,
+    "icon": "item-icon-PltOak",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOak2",
+    "name": "medium young hardwood"
+  },
+  "60008": {
+    "heldItemID": 2798,
+    "icon": "item-icon-PltOak",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOak3",
+    "name": "large young hardwood"
+  },
+  "60009": {
+    "heldItemID": 2805,
+    "icon": "item-icon-PltConifer",
+    "kind": "PltTreeCedar",
+    "model": "PltTreeCedar4",
+    "name": "cedar tree"
+  },
+  "60015": {
+    "heldItemID": 2627,
+    "icon": "item-icon-PltCosmos1",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos1Red",
+    "name": "red-cosmos stems"
+  },
+  "60016": {
+    "heldItemID": 2628,
+    "icon": "item-icon-PltCosmos1",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos2Red",
+    "name": "red-cosmos buds"
+  },
+  "60017": {
+    "heldItemID": 2304,
+    "icon": "item-icon-Cosmos1",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos3Red",
+    "name": "red cosmos"
+  },
+  "60018": {
+    "heldItemID": 2630,
+    "icon": "item-icon-PltCosmos0",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos1White",
+    "name": "white-cosmos stems"
+  },
+  "60019": {
+    "heldItemID": 2631,
+    "icon": "item-icon-PltCosmos0",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos2White",
+    "name": "white-cosmos buds"
+  },
+  "60020": {
+    "heldItemID": 2305,
+    "icon": "item-icon-Cosmos0",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos3White",
+    "name": "white cosmos"
+  },
+  "60022": {
+    "heldItemID": 2815,
+    "icon": "item-icon-PltBamboo",
+    "kind": "PltTreeBamboo",
+    "model": "PltTreeBamboo4",
+    "name": "bamboo tree"
+  },
+  "60023": {
+    "heldItemID": 2810,
+    "icon": "item-icon-PltPalm",
+    "kind": "PltTreePalm",
+    "model": "PltTreePalm4",
+    "name": "coconut tree"
+  },
+  "60025": {
+    "icon": "field-icon-hole",
+    "kind": "UnitIconHole",
+    "model": "Hole",
+    "name": "Hole"
+  },
+  "60028": {
+    "heldItemID": 12897,
+    "icon": "item-icon-PltTomato",
+    "kind": "PltVgtTomato",
+    "model": "PltVgtTomato0",
+    "name": "small tomato sprout"
+  },
+  "60029": {
+    "heldItemID": 2651,
+    "icon": "item-icon-PltTomato",
+    "kind": "PltVgtTomato",
+    "model": "PltVgtTomato1",
+    "name": "medium tomato sprout"
+  },
+  "60030": {
+    "heldItemID": 2652,
+    "icon": "item-icon-PltTomato",
+    "kind": "PltVgtTomato",
+    "model": "PltVgtTomato2",
+    "name": "large tomato sprout"
+  },
+  "60031": {
+    "heldItemID": 2570,
+    "icon": "item-icon-Tomato",
+    "kind": "PltVgtTomato",
+    "model": "PltVgtTomato3",
+    "name": "tomato"
+  },
+  "60033": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut0",
+    "model": "PltWeedAut1A",
+    "name": "clump of weeds"
+  },
+  "60034": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut0",
+    "model": "PltWeedAut1B",
+    "name": "clump of weeds"
+  },
+  "60035": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut0",
+    "model": "PltWeedAut1C",
+    "name": "clump of weeds"
+  },
+  "60038": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSmr",
+    "model": "PltWeedSmr1A",
+    "name": "clump of weeds"
+  },
+  "60039": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSmr",
+    "model": "PltWeedSmr1B",
+    "name": "clump of weeds"
+  },
+  "60040": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSmr",
+    "model": "PltWeedSmr1C",
+    "name": "clump of weeds"
+  },
+  "60041": {
+    "heldItemID": 2865,
+    "icon": "item-icon-PltCosmos2",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos1Yellow",
+    "name": "yellow-cosmos stems"
+  },
+  "60042": {
+    "heldItemID": 2866,
+    "icon": "item-icon-PltCosmos2",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos2Yellow",
+    "name": "yellow-cosmos buds"
+  },
+  "60043": {
+    "heldItemID": 2863,
+    "icon": "item-icon-Cosmos2",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos3Yellow",
+    "name": "yellow cosmos"
+  },
+  "60063": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOak4Stump",
+    "name": "Hardwood stump"
+  },
+  "60065": {
+    "heldItemID": 11711,
+    "icon": "item-icon-Fence",
+    "kind": "FenceWoodWhite",
+    "model": "FenceWoodWhite",
+    "name": "simple wooden fence"
+  },
+  "60084": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeCedar",
+    "model": "PltTreeCedar4Stump",
+    "name": "Cedar stump"
+  },
+  "60085": {
+    "heldItemID": 5151,
+    "icon": "item-icon-PltConifer",
+    "kind": "PltTreeCedar",
+    "model": "PltTreeCedar0",
+    "name": "nursery cedar"
+  },
+  "60086": {
+    "heldItemID": 2803,
+    "icon": "item-icon-PltConifer",
+    "kind": "PltTreeCedar",
+    "model": "PltTreeCedar2",
+    "name": "medium young cedar"
+  },
+  "60087": {
+    "heldItemID": 2802,
+    "icon": "item-icon-PltConifer",
+    "kind": "PltTreeCedar",
+    "model": "PltTreeCedar1",
+    "name": "small young cedar"
+  },
+  "60088": {
+    "heldItemID": 2804,
+    "icon": "item-icon-PltConifer",
+    "kind": "PltTreeCedar",
+    "model": "PltTreeCedar3",
+    "name": "large young cedar"
+  },
+  "60094": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreePalm",
+    "model": "PltTreePalm4Stump",
+    "name": "Coconut stump"
+  },
+  "60095": {
+    "heldItemID": 2806,
+    "icon": "item-icon-PltPalm",
+    "kind": "PltTreePalm",
+    "model": "PltTreePalm0",
+    "name": "nursery coconut"
+  },
+  "60096": {
+    "heldItemID": 2808,
+    "icon": "item-icon-PltPalm",
+    "kind": "PltTreePalm",
+    "model": "PltTreePalm2",
+    "name": "medium young coconut"
+  },
+  "60097": {
+    "heldItemID": 2807,
+    "icon": "item-icon-PltPalm",
+    "kind": "PltTreePalm",
+    "model": "PltTreePalm1",
+    "name": "small young coconut"
+  },
+  "60098": {
+    "heldItemID": 2809,
+    "icon": "item-icon-PltPalm",
+    "kind": "PltTreePalm",
+    "model": "PltTreePalm3",
+    "name": "large young coconut"
+  },
+  "60099": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeBamboo",
+    "model": "PltTreeBamboo4Stump",
+    "name": "Bamboo stump"
+  },
+  "60100": {
+    "heldItemID": 2811,
+    "icon": "item-icon-PltBamboo",
+    "kind": "PltTreeBamboo",
+    "model": "PltTreeBamboo0",
+    "name": "nursery bamboo"
+  },
+  "60101": {
+    "heldItemID": 2813,
+    "icon": "item-icon-PltBamboo",
+    "kind": "PltTreeBamboo",
+    "model": "PltTreeBamboo2",
+    "name": "medium young bamboo"
+  },
+  "60102": {
+    "heldItemID": 2812,
+    "icon": "item-icon-PltBamboo",
+    "kind": "PltTreeBamboo",
+    "model": "PltTreeBamboo1",
+    "name": "small young bamboo"
+  },
+  "60103": {
+    "heldItemID": 2814,
+    "icon": "item-icon-PltBamboo",
+    "kind": "PltTreeBamboo",
+    "model": "PltTreeBamboo3",
+    "name": "large young bamboo"
+  },
+  "60104": {
+    "heldItemID": 3370,
+    "icon": "item-icon-PltPear",
+    "kind": "PltTreeOak",
+    "model": "PltTreePear",
+    "name": "pear tree"
+  },
+  "60105": {
+    "heldItemID": 3381,
+    "icon": "item-icon-PltCherry",
+    "kind": "PltTreeOak",
+    "model": "PltTreeCherry",
+    "name": "cherry tree"
+  },
+  "60106": {
+    "heldItemID": 3375,
+    "icon": "item-icon-PltPeach",
+    "kind": "PltTreeOak",
+    "model": "PltTreePeach",
+    "name": "peach tree"
+  },
+  "60107": {
+    "heldItemID": 2861,
+    "icon": "item-icon-PltAzaleaWhite",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea3White",
+    "name": "white-azalea bush"
+  },
+  "60108": {
+    "heldItemID": 12747,
+    "icon": "item-icon-PltAzaleaWhite",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea0White",
+    "name": "white-azalea nursery"
+  },
+  "60109": {
+    "heldItemID": 2861,
+    "icon": "item-icon-PltAzaleaWhite",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea2White",
+    "name": "white-azalea bush"
+  },
+  "60111": {
+    "heldItemID": 2861,
+    "icon": "item-icon-PltAzaleaWhite",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea4White",
+    "name": "white-azalea bush"
+  },
+  "60112": {
+    "heldItemID": 2860,
+    "icon": "item-icon-PltAzaleaWhite",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea1White",
+    "name": "young white azalea"
+  },
+  "60113": {
+    "heldItemID": 3022,
+    "icon": "item-icon-PltHibiscusRed",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus3Red",
+    "name": "red-hibiscus bush"
+  },
+  "60114": {
+    "heldItemID": 12752,
+    "icon": "item-icon-PltHibiscusRed",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus0Red",
+    "name": "red-hibiscus nursery"
+  },
+  "60115": {
+    "heldItemID": 3022,
+    "icon": "item-icon-PltHibiscusRed",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus2Red",
+    "name": "red-hibiscus bush"
+  },
+  "60116": {
+    "heldItemID": 3022,
+    "icon": "item-icon-PltHibiscusRed",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus4Red",
+    "name": "red-hibiscus bush"
+  },
+  "60117": {
+    "heldItemID": 3021,
+    "icon": "item-icon-PltHibiscusRed",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus1Red",
+    "name": "young red hibiscus"
+  },
+  "60118": {
+    "heldItemID": 3027,
+    "icon": "item-icon-PltHolly",
+    "kind": "PltBushHolly",
+    "model": "PltBushHolly3",
+    "name": "holly bush"
+  },
+  "60119": {
+    "heldItemID": 12757,
+    "icon": "item-icon-PltHolly",
+    "kind": "PltBushHolly",
+    "model": "PltBushHolly0",
+    "name": "holly nursery"
+  },
+  "60120": {
+    "heldItemID": 3027,
+    "icon": "item-icon-PltHolly",
+    "kind": "PltBushHolly",
+    "model": "PltBushHolly2",
+    "name": "holly bush"
+  },
+  "60121": {
+    "heldItemID": 3026,
+    "icon": "item-icon-PltHolly",
+    "kind": "PltBushHolly",
+    "model": "PltBushHolly1",
+    "name": "young holly"
+  },
+  "60122": {
+    "heldItemID": 3027,
+    "icon": "item-icon-PltHolly",
+    "kind": "PltBushHolly",
+    "model": "PltBushHolly4",
+    "name": "holly bush"
+  },
+  "60124": {
+    "heldItemID": 3033,
+    "icon": "item-icon-PltWheat",
+    "kind": "PltVgtWheat",
+    "model": "PltVgtWheat2",
+    "name": "large wheat sprout"
+  },
+  "60125": {
+    "heldItemID": 3029,
+    "icon": "item-icon-Wheat",
+    "kind": "PltVgtWheat",
+    "model": "PltVgtWheat3",
+    "name": "wheat"
+  },
+  "60126": {
+    "heldItemID": 3032,
+    "icon": "item-icon-PltWheat",
+    "kind": "PltVgtWheat",
+    "model": "PltVgtWheat1",
+    "name": "medium wheat sprout"
+  },
+  "60127": {
+    "heldItemID": 3031,
+    "icon": "item-icon-PltWheat",
+    "kind": "PltVgtWheat",
+    "model": "PltVgtWheat0",
+    "name": "small wheat sprout"
+  },
+  "60134": {
+    "heldItemID": 3034,
+    "icon": "item-icon-SugarCane",
+    "kind": "PltVgtSugarcane",
+    "model": "PltVgtSugarCane3",
+    "name": "sugarcane"
+  },
+  "60135": {
+    "heldItemID": 3037,
+    "icon": "item-icon-PltSugarCane",
+    "kind": "PltVgtSugarcane",
+    "model": "PltVgtSugarCane1",
+    "name": "medium sugarcane sprout"
+  },
+  "60136": {
+    "heldItemID": 12901,
+    "icon": "item-icon-PltSugarCane",
+    "kind": "PltVgtSugarcane",
+    "model": "PltVgtSugarCane0",
+    "name": "small sugarcane sprout"
+  },
+  "60137": {
+    "heldItemID": 3038,
+    "icon": "item-icon-PltSugarCane",
+    "kind": "PltVgtSugarcane",
+    "model": "PltVgtSugarCane2",
+    "name": "large sugarcane sprout"
+  },
+  "60138": {
+    "heldItemID": 3039,
+    "icon": "item-icon-Potato",
+    "kind": "PltVgtPotato",
+    "model": "PltVgtPotato3",
+    "name": "potato"
+  },
+  "60139": {
+    "heldItemID": 3042,
+    "icon": "item-icon-PltPotato",
+    "kind": "PltVgtPotato",
+    "model": "PltVgtPotato1",
+    "name": "medium potato sprout"
+  },
+  "60140": {
+    "heldItemID": 12903,
+    "icon": "item-icon-PltPotato",
+    "kind": "PltVgtPotato",
+    "model": "PltVgtPotato0",
+    "name": "small potato sprout"
+  },
+  "60141": {
+    "heldItemID": 3043,
+    "icon": "item-icon-PltPotato",
+    "kind": "PltVgtPotato",
+    "model": "PltVgtPotato2",
+    "name": "large potato sprout"
+  },
+  "60142": {
+    "heldItemID": 3044,
+    "icon": "item-icon-Carrot",
+    "kind": "PltVgtCarrot",
+    "model": "PltVgtCarrot3",
+    "name": "carrot"
+  },
+  "60143": {
+    "heldItemID": 3047,
+    "icon": "item-icon-PltCarrot",
+    "kind": "PltVgtCarrot",
+    "model": "PltVgtCarrot1",
+    "name": "medium carrot sprout"
+  },
+  "60144": {
+    "heldItemID": 3046,
+    "icon": "item-icon-PltCarrot",
+    "kind": "PltVgtCarrot",
+    "model": "PltVgtCarrot0",
+    "name": "small carrot sprout"
+  },
+  "60145": {
+    "heldItemID": 3048,
+    "icon": "item-icon-PltCarrot",
+    "kind": "PltVgtCarrot",
+    "model": "PltVgtCarrot2",
+    "name": "large carrot sprout"
+  },
+  "60151": {
+    "heldItemID": 2878,
+    "icon": "item-icon-PltCosmos5",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos2Black",
+    "name": "black-cosmos buds"
+  },
+  "60152": {
+    "heldItemID": 2871,
+    "icon": "item-icon-Cosmos4",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos3Orange",
+    "name": "orange cosmos"
+  },
+  "60153": {
+    "heldItemID": 2875,
+    "icon": "item-icon-Cosmos5",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos3Black",
+    "name": "black cosmos"
+  },
+  "60154": {
+    "heldItemID": 2867,
+    "icon": "item-icon-Cosmos3",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos3Pink",
+    "name": "pink cosmos"
+  },
+  "60155": {
+    "heldItemID": 2877,
+    "icon": "item-icon-PltCosmos5",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos1Black",
+    "name": "black-cosmos stems"
+  },
+  "60156": {
+    "heldItemID": 2873,
+    "icon": "item-icon-PltCosmos4",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos1Orange",
+    "name": "orange-cosmos stems"
+  },
+  "60157": {
+    "heldItemID": 2874,
+    "icon": "item-icon-PltCosmos4",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos2Orange",
+    "name": "orange-cosmos buds"
+  },
+  "60158": {
+    "heldItemID": 2869,
+    "icon": "item-icon-PltCosmos3",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos1Pink",
+    "name": "pink-cosmos stems"
+  },
+  "60159": {
+    "heldItemID": 2870,
+    "icon": "item-icon-PltCosmos3",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos2Pink",
+    "name": "pink-cosmos buds"
+  },
+  "60160": {
+    "heldItemID": 3080,
+    "icon": "item-icon-Fence",
+    "kind": "FenceWallRenga",
+    "model": "FenceWallRenga",
+    "name": "brick fence"
+  },
+  "60161": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSmr",
+    "model": "PltWeedSmr3",
+    "name": "clump of weeds"
+  },
+  "60162": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSmr",
+    "model": "PltWeedSmr2A",
+    "name": "clump of weeds"
+  },
+  "60163": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSmr",
+    "model": "PltWeedSmr2C",
+    "name": "clump of weeds"
+  },
+  "60164": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSmr",
+    "model": "PltWeedSmr2B",
+    "name": "clump of weeds"
+  },
+  "60165": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut0",
+    "model": "PltWeedAut3",
+    "name": "clump of weeds"
+  },
+  "60178": {
+    "icon": "item-icon-OreStone",
+    "kind": "StoneA",
+    "model": "StoneA",
+    "name": "Rock (A)"
+  },
+  "60179": {
+    "icon": "item-icon-OreStone",
+    "kind": "StoneB",
+    "model": "StoneB",
+    "name": "Rock (B)"
+  },
+  "60180": {
+    "icon": "item-icon-OreStone",
+    "kind": "StoneE",
+    "model": "StoneE",
+    "name": "Rock (E)"
+  },
+  "60181": {
+    "icon": "item-icon-OreStone",
+    "kind": "StoneD",
+    "model": "StoneD",
+    "name": "Rock (D)"
+  },
+  "60182": {
+    "icon": "item-icon-OreStone",
+    "kind": "StoneC",
+    "model": "StoneC",
+    "name": "Rock (C)"
+  },
+  "60183": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut0",
+    "model": "PltWeedAut2B",
+    "name": "clump of weeds"
+  },
+  "60184": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut0",
+    "model": "PltWeedAut2C",
+    "name": "clump of weeds"
+  },
+  "60185": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut0",
+    "model": "PltWeedAut2A",
+    "name": "clump of weeds"
+  },
+  "60200": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSpr",
+    "model": "PltWeedSpr1A",
+    "name": "clump of weeds"
+  },
+  "60208": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSpr",
+    "model": "PltWeedSpr1B",
+    "name": "clump of weeds"
+  },
+  "60209": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSpr",
+    "model": "PltWeedSpr1C",
+    "name": "clump of weeds"
+  },
+  "60210": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSpr",
+    "model": "PltWeedSpr2A",
+    "name": "clump of weeds"
+  },
+  "60211": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSpr",
+    "model": "PltWeedSpr2B",
+    "name": "clump of weeds"
+  },
+  "60212": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSpr",
+    "model": "PltWeedSpr2C",
+    "name": "clump of weeds"
+  },
+  "60213": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedSpr",
+    "model": "PltWeedSpr3",
+    "name": "clump of weeds"
+  },
+  "60214": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin0",
+    "model": "PltWeedWin1A",
+    "name": "clump of weeds"
+  },
+  "60215": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin0",
+    "model": "PltWeedWin1B",
+    "name": "clump of weeds"
+  },
+  "60216": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin0",
+    "model": "PltWeedWin1C",
+    "name": "clump of weeds"
+  },
+  "60217": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin0",
+    "model": "PltWeedWin2A",
+    "name": "clump of weeds"
+  },
+  "60218": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin0",
+    "model": "PltWeedWin2B",
+    "name": "clump of weeds"
+  },
+  "60219": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin0",
+    "model": "PltWeedWin2C",
+    "name": "clump of weeds"
+  },
+  "60220": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin0",
+    "model": "PltWeedWin3",
+    "name": "clump of weeds"
+  },
+  "60221": {
+    "heldItemID": 2881,
+    "icon": "item-icon-PltTurip1",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip1White",
+    "name": "white-tulip stems"
+  },
+  "60222": {
+    "heldItemID": 2882,
+    "icon": "item-icon-PltTurip1",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip2White",
+    "name": "white-tulip buds"
+  },
+  "60223": {
+    "heldItemID": 2879,
+    "icon": "item-icon-Turip1",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip3White",
+    "name": "white tulips"
+  },
+  "60224": {
+    "heldItemID": 2885,
+    "icon": "item-icon-PltTurip0",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip1Red",
+    "name": "red-tulip stems"
+  },
+  "60225": {
+    "heldItemID": 2886,
+    "icon": "item-icon-PltTurip0",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip2Red",
+    "name": "red-tulip buds"
+  },
+  "60226": {
+    "heldItemID": 2883,
+    "icon": "item-icon-Turip0",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip3Red",
+    "name": "red tulips"
+  },
+  "60227": {
+    "heldItemID": 2889,
+    "icon": "item-icon-PltTurip2",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip1Yellow",
+    "name": "yellow-tulip stems"
+  },
+  "60228": {
+    "heldItemID": 2890,
+    "icon": "item-icon-PltTurip2",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip2Yellow",
+    "name": "yellow-tulip buds"
+  },
+  "60229": {
+    "heldItemID": 2887,
+    "icon": "item-icon-Turip2",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip3Yellow",
+    "name": "yellow tulips"
+  },
+  "60230": {
+    "heldItemID": 2893,
+    "icon": "item-icon-PltTurip3",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip1Pink",
+    "name": "pink-tulip stems"
+  },
+  "60231": {
+    "heldItemID": 2894,
+    "icon": "item-icon-PltTurip3",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip2Pink",
+    "name": "pink-tulip buds"
+  },
+  "60232": {
+    "heldItemID": 2891,
+    "icon": "item-icon-Turip3",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip3Pink",
+    "name": "pink tulips"
+  },
+  "60233": {
+    "heldItemID": 2897,
+    "icon": "item-icon-PltTurip6",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip1Orange",
+    "name": "orange-tulip stems"
+  },
+  "60234": {
+    "heldItemID": 2898,
+    "icon": "item-icon-PltTurip6",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip2Orange",
+    "name": "orange-tulip buds"
+  },
+  "60235": {
+    "heldItemID": 2895,
+    "icon": "item-icon-Turip6",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip3Orange",
+    "name": "orange tulips"
+  },
+  "60236": {
+    "heldItemID": 2901,
+    "icon": "item-icon-PltTurip4",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip1Purple",
+    "name": "purple-tulip stems"
+  },
+  "60237": {
+    "heldItemID": 2902,
+    "icon": "item-icon-PltTurip4",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip2Purple",
+    "name": "purple-tulip buds"
+  },
+  "60238": {
+    "heldItemID": 2899,
+    "icon": "item-icon-Turip4",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip3Purple",
+    "name": "purple tulips"
+  },
+  "60239": {
+    "heldItemID": 2905,
+    "icon": "item-icon-PltTurip5",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip1Black",
+    "name": "black-tulip stems"
+  },
+  "60240": {
+    "heldItemID": 2906,
+    "icon": "item-icon-PltTurip5",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip2Black",
+    "name": "black-tulip buds"
+  },
+  "60241": {
+    "heldItemID": 2903,
+    "icon": "item-icon-Turip5",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip3Black",
+    "name": "black tulips"
+  },
+  "60242": {
+    "heldItemID": 2909,
+    "icon": "item-icon-PltPansi0",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy1White",
+    "name": "white-pansy stems"
+  },
+  "60243": {
+    "heldItemID": 2910,
+    "icon": "item-icon-PltPansi0",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy2White",
+    "name": "white-pansy buds"
+  },
+  "60244": {
+    "heldItemID": 2907,
+    "icon": "item-icon-Pansi0",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy3White",
+    "name": "white pansies"
+  },
+  "60245": {
+    "heldItemID": 2913,
+    "icon": "item-icon-PltPansi2",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy1Red",
+    "name": "red-pansy stems"
+  },
+  "60246": {
+    "heldItemID": 2914,
+    "icon": "item-icon-PltPansi2",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy2Red",
+    "name": "red-pansy buds"
+  },
+  "60247": {
+    "heldItemID": 2911,
+    "icon": "item-icon-Pansi2",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy3Red",
+    "name": "red pansies"
+  },
+  "60248": {
+    "heldItemID": 2917,
+    "icon": "item-icon-PltPansi1",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy1Yellow",
+    "name": "yellow-pansy stems"
+  },
+  "60249": {
+    "heldItemID": 2918,
+    "icon": "item-icon-PltPansi1",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy2Yellow",
+    "name": "yellow-pansy buds"
+  },
+  "60250": {
+    "heldItemID": 2915,
+    "icon": "item-icon-Pansi1",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy3Yellow",
+    "name": "yellow pansies"
+  },
+  "60251": {
+    "heldItemID": 2921,
+    "icon": "item-icon-PltPansi4",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy1RedYellow",
+    "name": "orange-pansy stems"
+  },
+  "60252": {
+    "heldItemID": 2922,
+    "icon": "item-icon-PltPansi4",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy2RedYellow",
+    "name": "orange-pansy buds"
+  },
+  "60253": {
+    "heldItemID": 2919,
+    "icon": "item-icon-Pansi4",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy3RedYellow",
+    "name": "orange pansies"
+  },
+  "60254": {
+    "heldItemID": 2925,
+    "icon": "item-icon-PltPansi3",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy1Purple",
+    "name": "purple-pansy stems"
+  },
+  "60255": {
+    "heldItemID": 2926,
+    "icon": "item-icon-PltPansi3",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy2Purple",
+    "name": "purple-pansy buds"
+  },
+  "60256": {
+    "heldItemID": 2923,
+    "icon": "item-icon-Pansi3",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy3Purple",
+    "name": "purple pansies"
+  },
+  "60257": {
+    "heldItemID": 2929,
+    "icon": "item-icon-PltPansi5",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy1Blue",
+    "name": "blue-pansy stems"
+  },
+  "60258": {
+    "heldItemID": 2930,
+    "icon": "item-icon-PltPansi5",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy2Blue",
+    "name": "blue-pansy buds"
+  },
+  "60259": {
+    "heldItemID": 2927,
+    "icon": "item-icon-Pansi5",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy3Blue",
+    "name": "blue pansies"
+  },
+  "60260": {
+    "heldItemID": 2933,
+    "icon": "item-icon-PltRose1",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose1White",
+    "name": "white-rose stems"
+  },
+  "60261": {
+    "heldItemID": 2934,
+    "icon": "item-icon-PltRose1",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose2White",
+    "name": "white-rose buds"
+  },
+  "60262": {
+    "heldItemID": 2931,
+    "icon": "item-icon-Rose1",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose3White",
+    "name": "white roses"
+  },
+  "60263": {
+    "heldItemID": 2937,
+    "icon": "item-icon-PltRose0",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose1Red",
+    "name": "red-rose stems"
+  },
+  "60264": {
+    "heldItemID": 2938,
+    "icon": "item-icon-PltRose0",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose2Red",
+    "name": "red-rose buds"
+  },
+  "60265": {
+    "heldItemID": 2935,
+    "icon": "item-icon-Rose0",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose3Red",
+    "name": "red roses"
+  },
+  "60266": {
+    "heldItemID": 2941,
+    "icon": "item-icon-PltRose2",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose1Yellow",
+    "name": "yellow-rose stems"
+  },
+  "60267": {
+    "heldItemID": 2942,
+    "icon": "item-icon-PltRose2",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose2Yellow",
+    "name": "yellow-rose buds"
+  },
+  "60268": {
+    "heldItemID": 2939,
+    "icon": "item-icon-Rose2",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose3Yellow",
+    "name": "yellow roses"
+  },
+  "60269": {
+    "heldItemID": 2945,
+    "icon": "item-icon-PltRose3",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose1Pink",
+    "name": "pink-rose stems"
+  },
+  "60270": {
+    "heldItemID": 2946,
+    "icon": "item-icon-PltRose3",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose2Pink",
+    "name": "pink-rose buds"
+  },
+  "60271": {
+    "heldItemID": 2943,
+    "icon": "item-icon-Rose3",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose3Pink",
+    "name": "pink roses"
+  },
+  "60272": {
+    "heldItemID": 2949,
+    "icon": "item-icon-PltRose4",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose1Orange",
+    "name": "orange-rose stems"
+  },
+  "60273": {
+    "heldItemID": 2950,
+    "icon": "item-icon-PltRose4",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose2Orange",
+    "name": "orange-rose buds"
+  },
+  "60274": {
+    "heldItemID": 2947,
+    "icon": "item-icon-Rose4",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose3Orange",
+    "name": "orange roses"
+  },
+  "60275": {
+    "heldItemID": 2953,
+    "icon": "item-icon-PltRose5",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose1Purple",
+    "name": "purple-rose stems"
+  },
+  "60276": {
+    "heldItemID": 2954,
+    "icon": "item-icon-PltRose5",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose2Purple",
+    "name": "purple-rose buds"
+  },
+  "60277": {
+    "heldItemID": 2951,
+    "icon": "item-icon-Rose5",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose3Purple",
+    "name": "purple roses"
+  },
+  "60278": {
+    "heldItemID": 2957,
+    "icon": "item-icon-PltRose6",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose1Black",
+    "name": "black-rose stems"
+  },
+  "60279": {
+    "heldItemID": 2958,
+    "icon": "item-icon-PltRose6",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose2Black",
+    "name": "black-rose buds"
+  },
+  "60280": {
+    "heldItemID": 2955,
+    "icon": "item-icon-Rose6",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose3Black",
+    "name": "black roses"
+  },
+  "60281": {
+    "heldItemID": 2961,
+    "icon": "item-icon-PltRose7",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose1Blue",
+    "name": "blue-rose stems"
+  },
+  "60282": {
+    "heldItemID": 2962,
+    "icon": "item-icon-PltRose7",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose2Blue",
+    "name": "blue-rose buds"
+  },
+  "60283": {
+    "heldItemID": 2959,
+    "icon": "item-icon-Rose7",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose3Blue",
+    "name": "blue roses"
+  },
+  "60284": {
+    "heldItemID": 2965,
+    "icon": "item-icon-PltGoldenRose",
+    "kind": "PltFlwRoseGold",
+    "model": "PltFlwRose1Gold",
+    "name": "gold-rose stems"
+  },
+  "60285": {
+    "heldItemID": 2966,
+    "icon": "item-icon-PltGoldenRose",
+    "kind": "PltFlwRoseGold",
+    "model": "PltFlwRose2Gold",
+    "name": "gold-rose buds"
+  },
+  "60286": {
+    "heldItemID": 2963,
+    "icon": "item-icon-GoldenRose",
+    "kind": "PltFlwRoseGold",
+    "model": "PltFlwRose3Gold",
+    "name": "gold roses"
+  },
+  "60296": {
+    "heldItemID": 2981,
+    "icon": "item-icon-PltYuri0",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri1White",
+    "name": "white-lily stems"
+  },
+  "60297": {
+    "heldItemID": 2982,
+    "icon": "item-icon-PltYuri0",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri2White",
+    "name": "white-lily buds"
+  },
+  "60298": {
+    "heldItemID": 2979,
+    "icon": "item-icon-Yuri0",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri3White",
+    "name": "white lilies"
+  },
+  "60299": {
+    "heldItemID": 2985,
+    "icon": "item-icon-PltYuri2",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri1Red",
+    "name": "red-lily stems"
+  },
+  "60300": {
+    "heldItemID": 2986,
+    "icon": "item-icon-PltYuri2",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri2Red",
+    "name": "red-lily buds"
+  },
+  "60301": {
+    "heldItemID": 2983,
+    "icon": "item-icon-Yuri2",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri3Red",
+    "name": "red lilies"
+  },
+  "60302": {
+    "heldItemID": 2989,
+    "icon": "item-icon-PltYuri1",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri1Yellow",
+    "name": "yellow-lily stems"
+  },
+  "60303": {
+    "heldItemID": 2990,
+    "icon": "item-icon-PltYuri1",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri2Yellow",
+    "name": "yellow-lily buds"
+  },
+  "60304": {
+    "heldItemID": 2987,
+    "icon": "item-icon-Yuri1",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri3Yellow",
+    "name": "yellow lilies"
+  },
+  "60305": {
+    "heldItemID": 2993,
+    "icon": "item-icon-PltYuri4",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri1Pink",
+    "name": "pink-lily stems"
+  },
+  "60306": {
+    "heldItemID": 2994,
+    "icon": "item-icon-PltYuri4",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri2Pink",
+    "name": "pink-lily buds"
+  },
+  "60307": {
+    "heldItemID": 2991,
+    "icon": "item-icon-Yuri4",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri3Pink",
+    "name": "pink lilies"
+  },
+  "60308": {
+    "heldItemID": 2997,
+    "icon": "item-icon-PltYuri3",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri1Orange",
+    "name": "orange-lily stems"
+  },
+  "60309": {
+    "heldItemID": 2998,
+    "icon": "item-icon-PltYuri3",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri2Orange",
+    "name": "orange-lily buds"
+  },
+  "60310": {
+    "heldItemID": 2995,
+    "icon": "item-icon-Yuri3",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri3Orange",
+    "name": "orange lilies"
+  },
+  "60311": {
+    "heldItemID": 3001,
+    "icon": "item-icon-PltYuri5",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri1Black",
+    "name": "black-lily stems"
+  },
+  "60312": {
+    "heldItemID": 3002,
+    "icon": "item-icon-PltYuri5",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri2Black",
+    "name": "black-lily buds"
+  },
+  "60313": {
+    "heldItemID": 2999,
+    "icon": "item-icon-Yuri5",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri3Black",
+    "name": "black lilies"
+  },
+  "60346": {
+    "heldItemID": 3402,
+    "icon": "item-icon-Fence",
+    "kind": "FenceVerticalWood",
+    "model": "FenceVerticalWood",
+    "name": "vertical-board fence"
+  },
+  "60351": {
+    "heldItemID": 3403,
+    "icon": "item-icon-Fence",
+    "kind": "FenceBamboo",
+    "model": "FenceBamboo",
+    "name": "bamboo lattice fence"
+  },
+  "60352": {
+    "heldItemID": 3380,
+    "icon": "item-icon-PltCherry",
+    "kind": "PltTreeOak",
+    "model": "PltTreeCherry3",
+    "name": "large young cherry"
+  },
+  "60353": {
+    "heldItemID": 3379,
+    "icon": "item-icon-PltCherry",
+    "kind": "PltTreeOak",
+    "model": "PltTreeCherry2",
+    "name": "medium young cherry"
+  },
+  "60354": {
+    "heldItemID": 3377,
+    "icon": "item-icon-PltCherry",
+    "kind": "PltTreeOak",
+    "model": "PltTreeCherry0",
+    "name": "nursery cherry"
+  },
+  "60355": {
+    "heldItemID": 3378,
+    "icon": "item-icon-PltCherry",
+    "kind": "PltTreeOak",
+    "model": "PltTreeCherry1",
+    "name": "small young cherry"
+  },
+  "60356": {
+    "heldItemID": 3371,
+    "icon": "item-icon-PltPeach",
+    "kind": "PltTreeOak",
+    "model": "PltTreePeach0",
+    "name": "nursery peach"
+  },
+  "60357": {
+    "heldItemID": 3372,
+    "icon": "item-icon-PltPeach",
+    "kind": "PltTreeOak",
+    "model": "PltTreePeach1",
+    "name": "small young peach"
+  },
+  "60358": {
+    "heldItemID": 3373,
+    "icon": "item-icon-PltPeach",
+    "kind": "PltTreeOak",
+    "model": "PltTreePeach2",
+    "name": "medium young peach"
+  },
+  "60359": {
+    "heldItemID": 3374,
+    "icon": "item-icon-PltPeach",
+    "kind": "PltTreeOak",
+    "model": "PltTreePeach3",
+    "name": "large young peach"
+  },
+  "60360": {
+    "heldItemID": 3361,
+    "icon": "item-icon-PltOrange",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOrange0",
+    "name": "nursery orange"
+  },
+  "60361": {
+    "heldItemID": 3362,
+    "icon": "item-icon-PltOrange",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOrange1",
+    "name": "small young orange"
+  },
+  "60362": {
+    "heldItemID": 3363,
+    "icon": "item-icon-PltOrange",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOrange2",
+    "name": "medium young orange"
+  },
+  "60363": {
+    "heldItemID": 3364,
+    "icon": "item-icon-PltOrange",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOrange3",
+    "name": "large young orange"
+  },
+  "60364": {
+    "heldItemID": 3366,
+    "icon": "item-icon-PltPear",
+    "kind": "PltTreeOak",
+    "model": "PltTreePear0",
+    "name": "nursery pear"
+  },
+  "60365": {
+    "heldItemID": 3367,
+    "icon": "item-icon-PltPear",
+    "kind": "PltTreeOak",
+    "model": "PltTreePear1",
+    "name": "small young pear"
+  },
+  "60366": {
+    "heldItemID": 3368,
+    "icon": "item-icon-PltPear",
+    "kind": "PltTreeOak",
+    "model": "PltTreePear2",
+    "name": "medium young pear"
+  },
+  "60367": {
+    "heldItemID": 3369,
+    "icon": "item-icon-PltPear",
+    "kind": "PltTreeOak",
+    "model": "PltTreePear3",
+    "name": "large young pear"
+  },
+  "60368": {
+    "heldItemID": 3357,
+    "icon": "item-icon-PltApple",
+    "kind": "PltTreeOak",
+    "model": "PltTreeApple1",
+    "name": "small young apple"
+  },
+  "60369": {
+    "heldItemID": 3358,
+    "icon": "item-icon-PltApple",
+    "kind": "PltTreeOak",
+    "model": "PltTreeApple2",
+    "name": "medium young apple"
+  },
+  "60370": {
+    "heldItemID": 3359,
+    "icon": "item-icon-PltApple",
+    "kind": "PltTreeOak",
+    "model": "PltTreeApple3",
+    "name": "large young apple"
+  },
+  "60371": {
+    "heldItemID": 3356,
+    "icon": "item-icon-PltApple",
+    "kind": "PltTreeOak",
+    "model": "PltTreeApple0",
+    "name": "nursery apple"
+  },
+  "60372": {
+    "heldItemID": 11712,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLattice",
+    "model": "FenceLattice",
+    "name": "lattice fence"
+  },
+  "60373": {
+    "heldItemID": 4349,
+    "icon": "item-icon-Fence",
+    "kind": "FenceHorizontalWood",
+    "model": "FenceHorizontalWood",
+    "name": "corral fence"
+  },
+  "60374": {
+    "heldItemID": 4350,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLog",
+    "model": "FenceLog",
+    "name": "country fence"
+  },
+  "60375": {
+    "heldItemID": 4351,
+    "icon": "item-icon-Fence",
+    "kind": "FenceHorizontalLog",
+    "model": "FenceHorizontalLog",
+    "name": "log fence"
+  },
+  "60376": {
+    "heldItemID": 4352,
+    "icon": "item-icon-Fence",
+    "kind": "FencePegRope",
+    "model": "FencePegRope",
+    "name": "rope fence"
+  },
+  "60378": {
+    "heldItemID": 3744,
+    "icon": "item-icon-Hyacinth2",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth3Red",
+    "name": "red hyacinths"
+  },
+  "60379": {
+    "heldItemID": 3723,
+    "icon": "item-icon-Anemone1",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones3Red",
+    "name": "red windflowers"
+  },
+  "60380": {
+    "heldItemID": 3768,
+    "icon": "item-icon-Mum2",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum3Red",
+    "name": "red mums"
+  },
+  "60381": {
+    "heldItemID": 3770,
+    "icon": "item-icon-PltMum2",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum1Red",
+    "name": "red-mum stems"
+  },
+  "60382": {
+    "heldItemID": 3771,
+    "icon": "item-icon-PltMum2",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum2Red",
+    "name": "red-mum buds"
+  },
+  "60383": {
+    "heldItemID": 3725,
+    "icon": "item-icon-PltAnemone1",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones1Red",
+    "name": "red-windflower stems"
+  },
+  "60384": {
+    "heldItemID": 3726,
+    "icon": "item-icon-PltAnemone1",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones2Red",
+    "name": "red-windflower buds"
+  },
+  "60385": {
+    "heldItemID": 3746,
+    "icon": "item-icon-PltHyacinth2",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth1Red",
+    "name": "red-hyacinth stems"
+  },
+  "60386": {
+    "heldItemID": 3747,
+    "icon": "item-icon-PltHyacinth2",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth2Red",
+    "name": "red-hyacinth buds"
+  },
+  "60388": {
+    "heldItemID": 3730,
+    "icon": "item-icon-Hyacinth0",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth3White",
+    "name": "white hyacinths"
+  },
+  "60389": {
+    "heldItemID": 3733,
+    "icon": "item-icon-PltHyacinth0",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth2White",
+    "name": "white-hyacinth buds"
+  },
+  "60390": {
+    "heldItemID": 3732,
+    "icon": "item-icon-PltHyacinth0",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth1White",
+    "name": "white-hyacinth stems"
+  },
+  "60391": {
+    "heldItemID": 3737,
+    "icon": "item-icon-PltHyacinth1",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth2Yellow",
+    "name": "yellow-hyacinth buds"
+  },
+  "60392": {
+    "heldItemID": 3734,
+    "icon": "item-icon-Hyacinth1",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth3Yellow",
+    "name": "yellow hyacinths"
+  },
+  "60393": {
+    "heldItemID": 3736,
+    "icon": "item-icon-PltHyacinth1",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth1Yellow",
+    "name": "yellow-hyacinth stems"
+  },
+  "60394": {
+    "heldItemID": 3748,
+    "icon": "item-icon-Hyacinth6",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth3Blue",
+    "name": "blue hyacinths"
+  },
+  "60395": {
+    "heldItemID": 3738,
+    "icon": "item-icon-Hyacinth4",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth3Pink",
+    "name": "pink hyacinths"
+  },
+  "60396": {
+    "heldItemID": 3741,
+    "icon": "item-icon-Hyacinth3",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth3Orange",
+    "name": "orange hyacinths"
+  },
+  "60397": {
+    "heldItemID": 3751,
+    "icon": "item-icon-Hyacinth5",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth3Purple",
+    "name": "purple hyacinths"
+  },
+  "60398": {
+    "heldItemID": 3753,
+    "icon": "item-icon-PltHyacinth5",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth2Purple",
+    "name": "purple-hyacinth buds"
+  },
+  "60399": {
+    "heldItemID": 3752,
+    "icon": "item-icon-PltHyacinth5",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth1Purple",
+    "name": "purple-hyacinth stems"
+  },
+  "60400": {
+    "heldItemID": 3743,
+    "icon": "item-icon-PltHyacinth3",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth2Orange",
+    "name": "orange-hyacinth buds"
+  },
+  "60401": {
+    "heldItemID": 3740,
+    "icon": "item-icon-PltHyacinth4",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth2Pink",
+    "name": "pink-hyacinth buds"
+  },
+  "60402": {
+    "heldItemID": 3739,
+    "icon": "item-icon-PltHyacinth4",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth1Pink",
+    "name": "pink-hyacinth stems"
+  },
+  "60403": {
+    "heldItemID": 3749,
+    "icon": "item-icon-PltHyacinth6",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth1Blue",
+    "name": "blue-hyacinth stems"
+  },
+  "60404": {
+    "heldItemID": 3750,
+    "icon": "item-icon-PltHyacinth6",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth2Blue",
+    "name": "blue-hyacinth buds"
+  },
+  "60405": {
+    "heldItemID": 3742,
+    "icon": "item-icon-PltHyacinth3",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth1Orange",
+    "name": "orange-hyacinth stems"
+  },
+  "60409": {
+    "heldItemID": 12749,
+    "icon": "item-icon-PltHydrangeaBlue",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea",
+    "name": "blue-hydrangea nursery"
+  },
+  "60411": {
+    "heldItemID": 12750,
+    "icon": "item-icon-PltHydrangeaPink",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea0Pink",
+    "name": "pink-hydrangea nursery"
+  },
+  "60412": {
+    "heldItemID": 3799,
+    "icon": "item-icon-PltHydrangeaBlue",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea1Blue",
+    "name": "young blue hydrangea"
+  },
+  "60413": {
+    "heldItemID": 3800,
+    "icon": "item-icon-PltHydrangeaBlue",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea2Blue",
+    "name": "blue-hydrangea bush"
+  },
+  "60414": {
+    "heldItemID": 3800,
+    "icon": "item-icon-PltHydrangeaBlue",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea3Blue",
+    "name": "blue-hydrangea bush"
+  },
+  "60415": {
+    "heldItemID": 3800,
+    "icon": "item-icon-PltHydrangeaBlue",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea4Blue",
+    "name": "blue-hydrangea bush"
+  },
+  "60416": {
+    "heldItemID": 3795,
+    "icon": "item-icon-PltHydrangeaPink",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea1Pink",
+    "name": "young pink hydrangea"
+  },
+  "60417": {
+    "heldItemID": 3796,
+    "icon": "item-icon-PltHydrangeaPink",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea2Pink",
+    "name": "pink-hydrangea bush"
+  },
+  "60418": {
+    "heldItemID": 3796,
+    "icon": "item-icon-PltHydrangeaPink",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea3Pink",
+    "name": "pink-hydrangea bush"
+  },
+  "60419": {
+    "heldItemID": 3796,
+    "icon": "item-icon-PltHydrangeaPink",
+    "kind": "PltBushHydrangea",
+    "model": "PltBushHydrangea4Pink",
+    "name": "pink-hydrangea bush"
+  },
+  "60420": {
+    "heldItemID": 3756,
+    "icon": "item-icon-PltMum0",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum1White",
+    "name": "white-mum stems"
+  },
+  "60421": {
+    "heldItemID": 3760,
+    "icon": "item-icon-PltMum1",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum1Yellow",
+    "name": "yellow-mum stems"
+  },
+  "60422": {
+    "heldItemID": 3763,
+    "icon": "item-icon-PltMum5",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum1Purple",
+    "name": "purple-mum stems"
+  },
+  "60423": {
+    "heldItemID": 3766,
+    "icon": "item-icon-PltMum3",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum1Pink",
+    "name": "pink-mum stems"
+  },
+  "60424": {
+    "heldItemID": 3757,
+    "icon": "item-icon-PltMum0",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum2White",
+    "name": "white-mum buds"
+  },
+  "60425": {
+    "heldItemID": 3754,
+    "icon": "item-icon-Mum0",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum3White",
+    "name": "white mums"
+  },
+  "60426": {
+    "heldItemID": 3761,
+    "icon": "item-icon-PltMum1",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum2Yellow",
+    "name": "yellow-mum buds"
+  },
+  "60427": {
+    "heldItemID": 3764,
+    "icon": "item-icon-PltMum5",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum2Purple",
+    "name": "purple-mum buds"
+  },
+  "60428": {
+    "heldItemID": 3767,
+    "icon": "item-icon-PltMum3",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum2Pink",
+    "name": "pink-mum buds"
+  },
+  "60429": {
+    "heldItemID": 3758,
+    "icon": "item-icon-Mum1",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum3Yellow",
+    "name": "yellow mums"
+  },
+  "60430": {
+    "heldItemID": 3762,
+    "icon": "item-icon-Mum5",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum3Purple",
+    "name": "purple mums"
+  },
+  "60431": {
+    "heldItemID": 3765,
+    "icon": "item-icon-Mum3",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum3Pink",
+    "name": "pink mums"
+  },
+  "60433": {
+    "heldItemID": 3711,
+    "icon": "item-icon-PltAnemone0",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones1White",
+    "name": "white-windflower stems"
+  },
+  "60434": {
+    "heldItemID": 3712,
+    "icon": "item-icon-PltAnemone0",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones2White",
+    "name": "white-windflower buds"
+  },
+  "60435": {
+    "heldItemID": 3709,
+    "icon": "item-icon-Anemone0",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones3White",
+    "name": "white windflowers"
+  },
+  "60436": {
+    "heldItemID": 3718,
+    "icon": "item-icon-PltAnemone5",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones1Blue",
+    "name": "blue-windflower stems"
+  },
+  "60437": {
+    "heldItemID": 3728,
+    "icon": "item-icon-PltAnemone4",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones1Purple",
+    "name": "purple-windflower stems"
+  },
+  "60438": {
+    "heldItemID": 3721,
+    "icon": "item-icon-PltAnemone3",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones1Pink",
+    "name": "pink-windflower stems"
+  },
+  "60439": {
+    "heldItemID": 3715,
+    "icon": "item-icon-PltAnemone2",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones1Orange",
+    "name": "orange-windflower stems"
+  },
+  "60440": {
+    "heldItemID": 3719,
+    "icon": "item-icon-PltAnemone5",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones2Blue",
+    "name": "blue-windflower buds"
+  },
+  "60441": {
+    "heldItemID": 3717,
+    "icon": "item-icon-Anemone5",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones3Blue",
+    "name": "blue windflowers"
+  },
+  "60442": {
+    "heldItemID": 3729,
+    "icon": "item-icon-PltAnemone4",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones2Purple",
+    "name": "purple-windflower buds"
+  },
+  "60443": {
+    "heldItemID": 3727,
+    "icon": "item-icon-Anemone4",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones3Purple",
+    "name": "purple windflowers"
+  },
+  "60444": {
+    "heldItemID": 3722,
+    "icon": "item-icon-PltAnemone3",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones2Pink",
+    "name": "pink-windflower buds"
+  },
+  "60445": {
+    "heldItemID": 3720,
+    "icon": "item-icon-Anemone3",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones3Pink",
+    "name": "pink windflowers"
+  },
+  "60446": {
+    "heldItemID": 3716,
+    "icon": "item-icon-PltAnemone2",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones2Orange",
+    "name": "orange-windflower buds"
+  },
+  "60447": {
+    "heldItemID": 3713,
+    "icon": "item-icon-Anemone2",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones3Orange",
+    "name": "orange windflowers"
+  },
+  "60448": {
+    "heldItemID": 3787,
+    "icon": "item-icon-PltAzaleaPink",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea1Pink",
+    "name": "young pink azalea"
+  },
+  "60449": {
+    "heldItemID": 12748,
+    "icon": "item-icon-PltAzaleaPink",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea0Pink",
+    "name": "pink-azalea nursery"
+  },
+  "60450": {
+    "heldItemID": 3788,
+    "icon": "item-icon-PltAzaleaPink",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea2Pink",
+    "name": "pink-azalea bush"
+  },
+  "60451": {
+    "heldItemID": 3788,
+    "icon": "item-icon-PltAzaleaPink",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea3Pink",
+    "name": "pink-azalea bush"
+  },
+  "60452": {
+    "heldItemID": 3788,
+    "icon": "item-icon-PltAzaleaPink",
+    "kind": "PltBushAzalea",
+    "model": "PltBushAzalea4Pink",
+    "name": "pink-azalea bush"
+  },
+  "60453": {
+    "heldItemID": 12751,
+    "icon": "item-icon-PltHibiscusYellow",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus0Yellow",
+    "name": "yellow-hibiscus nursery"
+  },
+  "60454": {
+    "heldItemID": 3791,
+    "icon": "item-icon-PltHibiscusYellow",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus1Yellow",
+    "name": "young yellow hibiscus"
+  },
+  "60455": {
+    "heldItemID": 3792,
+    "icon": "item-icon-PltHibiscusYellow",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus2Yellow",
+    "name": "yellow-hibiscus bush"
+  },
+  "60456": {
+    "heldItemID": 3792,
+    "icon": "item-icon-PltHibiscusYellow",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus3Yellow",
+    "name": "yellow-hibiscus bush"
+  },
+  "60457": {
+    "heldItemID": 3792,
+    "icon": "item-icon-PltHibiscusYellow",
+    "kind": "PltBushHibiscus",
+    "model": "PltBushHibiscus4Yellow",
+    "name": "yellow-hibiscus bush"
+  },
+  "60466": {
+    "heldItemID": 3778,
+    "icon": "item-icon-PltMum4",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum1Green",
+    "name": "green-mum stems"
+  },
+  "60467": {
+    "heldItemID": 3779,
+    "icon": "item-icon-PltMum4",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum2Green",
+    "name": "green-mum buds"
+  },
+  "60468": {
+    "heldItemID": 5175,
+    "icon": "item-icon-Mum4",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum3Green",
+    "name": "green mums"
+  },
+  "60472": {
+    "heldItemID": 3909,
+    "icon": "item-icon-PltHyacinth0",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth0White",
+    "name": "white-hyacinth sprouts"
+  },
+  "60474": {
+    "heldItemID": 3925,
+    "icon": "item-icon-PltMum1",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum0Yellow",
+    "name": "yellow-mum sprouts"
+  },
+  "60475": {
+    "heldItemID": 3911,
+    "icon": "item-icon-PltHyacinth1",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth0Yellow",
+    "name": "yellow-hyacinth sprouts"
+  },
+  "60479": {
+    "heldItemID": 3917,
+    "icon": "item-icon-PltHyacinth2",
+    "kind": "PltFlwHyacinth",
+    "model": "PltFlwHyacinth0Red",
+    "name": "red-hyacinth sprouts"
+  },
+  "60482": {
+    "heldItemID": 3905,
+    "icon": "item-icon-PltAnemone1",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones0Red",
+    "name": "red-windflower sprouts"
+  },
+  "60483": {
+    "heldItemID": 3897,
+    "icon": "item-icon-PltAnemone0",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones0White",
+    "name": "white-windflower sprouts"
+  },
+  "60487": {
+    "heldItemID": 3899,
+    "icon": "item-icon-PltAnemone2",
+    "kind": "PltFlwAnemone",
+    "model": "PltFlwAnemones0Orange",
+    "name": "orange-windflower sprouts"
+  },
+  "60488": {
+    "heldItemID": 3931,
+    "icon": "item-icon-PltMum2",
+    "kind": "PltFlwMum",
+    "model": "PltFlwM0Red",
+    "name": "red-mum sprouts"
+  },
+  "60489": {
+    "heldItemID": 3923,
+    "icon": "item-icon-PltMum0",
+    "kind": "PltFlwMum",
+    "model": "PltFlwMum0White",
+    "name": "white-mum sprouts"
+  },
+  "60490": {
+    "heldItemID": 3839,
+    "icon": "item-icon-PltTurip2",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip0Yellow",
+    "name": "yellow-tulip sprouts"
+  },
+  "60496": {
+    "heldItemID": 3849,
+    "icon": "item-icon-PltPansi0",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy0White",
+    "name": "white-pansy sprouts"
+  },
+  "60497": {
+    "heldItemID": 3851,
+    "icon": "item-icon-PltPansi2",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy0Red",
+    "name": "red-pansy sprouts"
+  },
+  "60498": {
+    "heldItemID": 3853,
+    "icon": "item-icon-PltPansi1",
+    "kind": "PltFlwPansy",
+    "model": "PltFlwPansy0Yellow",
+    "name": "yellow-pansy sprouts"
+  },
+  "60502": {
+    "heldItemID": 3861,
+    "icon": "item-icon-PltRose1",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose0White",
+    "name": "white-rose sprouts"
+  },
+  "60503": {
+    "heldItemID": 3863,
+    "icon": "item-icon-PltRose0",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose0Red",
+    "name": "red-rose sprouts"
+  },
+  "60504": {
+    "heldItemID": 3865,
+    "icon": "item-icon-PltRose2",
+    "kind": "PltFlwRose",
+    "model": "PltFlwRose0Yellow",
+    "name": "yellow-rose sprouts"
+  },
+  "60507": {
+    "heldItemID": 3889,
+    "icon": "item-icon-PltYuri1",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri0Yellow",
+    "name": "yellow-lily sprouts"
+  },
+  "60512": {
+    "heldItemID": 3885,
+    "icon": "item-icon-PltYuri0",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri0White",
+    "name": "white-lily sprouts"
+  },
+  "60513": {
+    "heldItemID": 3887,
+    "icon": "item-icon-PltYuri2",
+    "kind": "PltFlwYuri",
+    "model": "PltFlwYuri0Red",
+    "name": "red-lily sprouts"
+  },
+  "60514": {
+    "heldItemID": 3823,
+    "icon": "item-icon-PltCosmos1",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos0Red",
+    "name": "red-cosmos sprouts"
+  },
+  "60515": {
+    "heldItemID": 3837,
+    "icon": "item-icon-PltTurip0",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip0Red",
+    "name": "red-tulip sprouts"
+  },
+  "60516": {
+    "heldItemID": 3827,
+    "icon": "item-icon-PltCosmos2",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos0Yellow",
+    "name": "yellow-cosmos sprouts"
+  },
+  "60517": {
+    "heldItemID": 3825,
+    "icon": "item-icon-PltCosmos0",
+    "kind": "PltFlwCosmos",
+    "model": "PltFlwCosmos0White",
+    "name": "white-cosmos sprouts"
+  },
+  "60521": {
+    "heldItemID": 3835,
+    "icon": "item-icon-PltTurip1",
+    "kind": "PltFlwTulip",
+    "model": "PltFlwTulip0White",
+    "name": "white-tulip sprouts"
+  },
+  "60523": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOak3Stump",
+    "name": "Hardwood stump (large young)"
+  },
+  "60524": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOak2Stump",
+    "name": "Hardwood stump (medium young)"
+  },
+  "60525": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeOak",
+    "model": "PltTreeOak1Stump",
+    "name": "Hardwood stump (small young)"
+  },
+  "60526": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeCedar",
+    "model": "PltTreeCedar3Stump",
+    "name": "Cedar stump (large young)"
+  },
+  "60527": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeCedar",
+    "model": "PltTreeCedar2Stump",
+    "name": "Cedar stump (medium young)"
+  },
+  "60528": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeCedar",
+    "model": "PltTreeCedar1Stump",
+    "name": "Cedar stump (small young)"
+  },
+  "60529": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeBamboo",
+    "model": "PltTreeBamboo3Stump",
+    "name": "Bamboo stump (large young)"
+  },
+  "60530": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeBamboo",
+    "model": "PltTreeBamboo2Stump",
+    "name": "Bamboo stump (medium young)"
+  },
+  "60531": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeBamboo",
+    "model": "PltTreeBamboo1Stump",
+    "name": "Bamboo stump (small young)"
+  },
+  "60532": {
+    "heldItemID": 4354,
+    "icon": "item-icon-Fence",
+    "kind": "FenceChinese",
+    "model": "FenceChinese",
+    "name": "imperial fence"
+  },
+  "60536": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreePalm",
+    "model": "PltTreePalm1Stump",
+    "name": "Coconut stump (small young)"
+  },
+  "60537": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreePalm",
+    "model": "PltTreePalm2Stump",
+    "name": "Coconut stump (medium young)"
+  },
+  "60538": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreePalm",
+    "model": "PltTreePalm3Stump",
+    "name": "Coconut stump (large young)"
+  },
+  "60539": {
+    "heldItemID": 4355,
+    "icon": "item-icon-Fence",
+    "kind": "FenceConcreteBlock",
+    "model": "FenceConcreteBlock",
+    "name": "block fence"
+  },
+  "60540": {
+    "heldItemID": 4356,
+    "icon": "item-icon-Fence",
+    "kind": "FenceDriedStraw",
+    "model": "FenceDriedStraw",
+    "name": "straw fence"
+  },
+  "60541": {
+    "heldItemID": 4357,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSteel",
+    "model": "FenceSteel",
+    "name": "iron fence"
+  },
+  "60542": {
+    "heldItemID": 4358,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSharply",
+    "model": "FenceSharply",
+    "name": "spiky fence"
+  },
+  "60543": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut2",
+    "model": "PltWeedAut23",
+    "name": "clump of weeds"
+  },
+  "60544": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut2",
+    "model": "PltWeedAut22C",
+    "name": "clump of weeds"
+  },
+  "60545": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut2",
+    "model": "PltWeedAut22A",
+    "name": "clump of weeds"
+  },
+  "60546": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut2",
+    "model": "PltWeedAut22B",
+    "name": "clump of weeds"
+  },
+  "60547": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut2",
+    "model": "PltWeedAut21A",
+    "name": "clump of weeds"
+  },
+  "60548": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut2",
+    "model": "PltWeedAut21B",
+    "name": "clump of weeds"
+  },
+  "60549": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut2",
+    "model": "PltWeedAut21C",
+    "name": "clump of weeds"
+  },
+  "60550": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut1",
+    "model": "PltWeedAut11B",
+    "name": "clump of weeds"
+  },
+  "60551": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut1",
+    "model": "PltWeedAut11C",
+    "name": "clump of weeds"
+  },
+  "60552": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut1",
+    "model": "PltWeedAut12A",
+    "name": "clump of weeds"
+  },
+  "60553": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut1",
+    "model": "PltWeedAut12B",
+    "name": "clump of weeds"
+  },
+  "60554": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut1",
+    "model": "PltWeedAut12C",
+    "name": "clump of weeds"
+  },
+  "60555": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut1",
+    "model": "PltWeedAut13",
+    "name": "clump of weeds"
+  },
+  "60556": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedAut1",
+    "model": "PltWeedAut11A",
+    "name": "clump of weeds"
+  },
+  "60557": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin1",
+    "model": "PltWeedWin13",
+    "name": "clump of weeds"
+  },
+  "60558": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin1",
+    "model": "PltWeedWin12C",
+    "name": "clump of weeds"
+  },
+  "60559": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin1",
+    "model": "PltWeedWin12A",
+    "name": "clump of weeds"
+  },
+  "60560": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin1",
+    "model": "PltWeedWin12B",
+    "name": "clump of weeds"
+  },
+  "60561": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin1",
+    "model": "PltWeedWin11A",
+    "name": "clump of weeds"
+  },
+  "60562": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin1",
+    "model": "PltWeedWin11B",
+    "name": "clump of weeds"
+  },
+  "60563": {
+    "heldItemID": 2624,
+    "icon": "item-icon-Weed",
+    "kind": "PltWeedWin1",
+    "model": "PltWeedWin11C",
+    "name": "clump of weeds"
+  },
+  "60564": {
+    "heldItemID": 11711,
+    "icon": "item-icon-Fence",
+    "kind": "FenceWoodWhite",
+    "model": "FenceWoodBlue",
+    "name": "simple wooden fence"
+  },
+  "60567": {
+    "heldItemID": 2805,
+    "icon": "item-icon-PltConifer",
+    "kind": "PltTreeCedarDeco",
+    "model": "PltTreeCedarDecoB",
+    "name": "cedar tree"
+  },
+  "60570": {
+    "heldItemID": 2805,
+    "icon": "item-icon-PltConifer",
+    "kind": "PltTreeCedarDeco",
+    "model": "PltTreeCedarDecoA",
+    "name": "cedar tree"
+  },
+  "60571": {
+    "heldItemID": 5212,
+    "icon": "item-icon-Fence",
+    "kind": "FenceStone",
+    "model": "FenceStone",
+    "name": "stone fence"
+  },
+  "60572": {
+    "heldItemID": 4426,
+    "icon": "item-icon-PltMoney",
+    "kind": "PltTreeOak",
+    "model": "PltTreeMoney4",
+    "name": "money tree"
+  },
+  "60573": {
+    "heldItemID": 4439,
+    "icon": "item-icon-PltMoney",
+    "kind": "PltTreeOak",
+    "model": "PltTreeMoney3",
+    "name": "large young money tree"
+  },
+  "60574": {
+    "heldItemID": 4438,
+    "icon": "item-icon-PltMoney",
+    "kind": "PltTreeOak",
+    "model": "PltTreeMoney2",
+    "name": "medium young money tree"
+  },
+  "60575": {
+    "heldItemID": 4436,
+    "icon": "item-icon-PltMoney",
+    "kind": "PltTreeOak",
+    "model": "PltTreeMoney0",
+    "name": "nursery money tree"
+  },
+  "60576": {
+    "heldItemID": 4437,
+    "icon": "item-icon-PltMoney",
+    "kind": "PltTreeOak",
+    "model": "PltTreeMoney1",
+    "name": "small young money tree"
+  },
+  "60577": {
+    "heldItemID": 4528,
+    "icon": "item-icon-SquashWhite",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash3White",
+    "name": "white pumpkin"
+  },
+  "60578": {
+    "heldItemID": 4543,
+    "icon": "item-icon-PltSquashWhite",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash2White",
+    "name": "lg. white-pumpkin sprout"
+  },
+  "60579": {
+    "heldItemID": 4542,
+    "icon": "item-icon-PltSquashWhite",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash1White",
+    "name": "m. white-pumpkin sprout"
+  },
+  "60580": {
+    "heldItemID": 4541,
+    "icon": "item-icon-PltSquashWhite",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash0White",
+    "name": "s. white-pumpkin sprout"
+  },
+  "60581": {
+    "heldItemID": 4538,
+    "icon": "item-icon-PltSquashGreen",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash1Green",
+    "name": "m. green-pumpkin sprout"
+  },
+  "60582": {
+    "heldItemID": 4539,
+    "icon": "item-icon-PltSquashGreen",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash2Green",
+    "name": "lg. green-pumpkin sprout"
+  },
+  "60583": {
+    "heldItemID": 4527,
+    "icon": "item-icon-SquashGreen",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash3Green",
+    "name": "green pumpkin"
+  },
+  "60585": {
+    "heldItemID": 4525,
+    "icon": "item-icon-SquashOrange",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash3Orange",
+    "name": "orange pumpkin"
+  },
+  "60586": {
+    "heldItemID": 4533,
+    "icon": "item-icon-PltSquashYellow",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash0Yellow",
+    "name": "s. yellow-pumpkin sprout"
+  },
+  "60587": {
+    "heldItemID": 4534,
+    "icon": "item-icon-PltSquashYellow",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash1Yellow",
+    "name": "m. yellow-pumpkin sprout"
+  },
+  "60588": {
+    "heldItemID": 4535,
+    "icon": "item-icon-PltSquashYellow",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash2Yellow",
+    "name": "lg. yellow-pumpkin sprout"
+  },
+  "60589": {
+    "heldItemID": 4526,
+    "icon": "item-icon-SquashYellow",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash3Yellow",
+    "name": "yellow pumpkin"
+  },
+  "60590": {
+    "heldItemID": 4537,
+    "icon": "item-icon-PltSquashGreen",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash0Green",
+    "name": "s. green-pumpkin sprout"
+  },
+  "60591": {
+    "heldItemID": 4529,
+    "icon": "item-icon-PltSquashOrange",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash0Orange",
+    "name": "s. orange-pumpkin sprout"
+  },
+  "60592": {
+    "heldItemID": 4530,
+    "icon": "item-icon-PltSquashOrange",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash1Orange",
+    "name": "m. orange-pumpkin sprout"
+  },
+  "60593": {
+    "heldItemID": 4531,
+    "icon": "item-icon-PltSquashOrange",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash2Orange",
+    "name": "lg. orange-pumpkin sprout"
+  },
+  "60594": {
+    "heldItemID": 5213,
+    "icon": "item-icon-Fence",
+    "kind": "FenceBarbedWire",
+    "model": "FenceBarbedWire",
+    "name": "barbed-wire fence"
+  },
+  "60595": {
+    "heldItemID": 5210,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLogWall",
+    "model": "FenceLogWall",
+    "name": "log-wall fence"
+  },
+  "60596": {
+    "heldItemID": 5208,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLatticeBig",
+    "model": "FenceLatticeBig",
+    "name": "large lattice fence"
+  },
+  "60597": {
+    "heldItemID": 11711,
+    "icon": "item-icon-Fence",
+    "kind": "FenceWoodWhite",
+    "model": "FenceWoodPink",
+    "name": "simple wooden fence"
+  },
+  "60598": {
+    "heldItemID": 5207,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJapanese",
+    "model": "FenceJapanese",
+    "name": "zen fence"
+  },
+  "60599": {
+    "heldItemID": 5206,
+    "icon": "item-icon-Fence",
+    "kind": "FenceIronAndStone",
+    "model": "FenceIronAndStone",
+    "name": "iron-and-stone fence"
+  },
+  "60600": {
+    "heldItemID": 3402,
+    "icon": "item-icon-Fence",
+    "kind": "FenceVerticalWood",
+    "model": "FenceVerticalWood2",
+    "name": "vertical-board fence"
+  },
+  "60602": {
+    "heldItemID": 11712,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLattice",
+    "model": "FenceLattice2",
+    "name": "lattice fence"
+  },
+  "60603": {
+    "heldItemID": 5208,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLatticeBig",
+    "model": "FenceLatticeBig2",
+    "name": "large lattice fence"
+  },
+  "60604": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeOak",
+    "model": "PltTreeFruitStump1",
+    "name": "Fruit tree stump (small young)"
+  },
+  "60605": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeOak",
+    "model": "PltTreeFruitStump2",
+    "name": "Fruit tree stump (medium young)"
+  },
+  "60606": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeOak",
+    "model": "PltTreeFruitStump3",
+    "name": "Fruit tree stump (large young)"
+  },
+  "60607": {
+    "icon": "field-icon-stump",
+    "kind": "PltTreeOak",
+    "model": "PltTreeFruitStump4",
+    "name": "Fruit tree stump"
+  },
+  "60609": {
+    "heldItemID": 7651,
+    "icon": "item-icon-PltSuzuran",
+    "kind": "PltFlwLily",
+    "model": "PltFlwLily3",
+    "name": "lily-of-the-valley plant"
+  },
+  "60610": {
+    "heldItemID": 11711,
+    "icon": "item-icon-Fence",
+    "kind": "FenceWoodWhite",
+    "model": "FenceWoodNatural",
+    "name": "simple wooden fence"
+  },
+  "60611": {
+    "heldItemID": 11712,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLattice",
+    "model": "FenceLattice3",
+    "name": "lattice fence"
+  },
+  "60612": {
+    "icon": "item-icon-Fence",
+    "kind": "FenceHorizontalLog",
+    "model": "FenceCommune",
+    "name": "Communal island fence"
+  },
+  "60613": {
+    "heldItemID": 11711,
+    "icon": "item-icon-Fence",
+    "kind": "FenceWoodWhite",
+    "model": "FenceWoodYellow",
+    "name": "simple wooden fence"
+  },
+  "60614": {
+    "heldItemID": 11711,
+    "icon": "item-icon-Fence",
+    "kind": "FenceWoodWhite",
+    "model": "FenceWoodOrange",
+    "name": "simple wooden fence"
+  },
+  "60615": {
+    "heldItemID": 11711,
+    "icon": "item-icon-Fence",
+    "kind": "FenceWoodWhite",
+    "model": "FenceWoodPurple",
+    "name": "simple wooden fence"
+  },
+  "60616": {
+    "heldItemID": 11711,
+    "icon": "item-icon-Fence",
+    "kind": "FenceWoodWhite",
+    "model": "FenceWoodGreen",
+    "name": "simple wooden fence"
+  },
+  "60617": {
+    "heldItemID": 3402,
+    "icon": "item-icon-Fence",
+    "kind": "FenceVerticalWood",
+    "model": "FenceVerticalWood6",
+    "name": "vertical-board fence"
+  },
+  "60618": {
+    "heldItemID": 3402,
+    "icon": "item-icon-Fence",
+    "kind": "FenceVerticalWood",
+    "model": "FenceVerticalWood5",
+    "name": "vertical-board fence"
+  },
+  "60619": {
+    "heldItemID": 3402,
+    "icon": "item-icon-Fence",
+    "kind": "FenceVerticalWood",
+    "model": "FenceVerticalWood3",
+    "name": "vertical-board fence"
+  },
+  "60620": {
+    "heldItemID": 3402,
+    "icon": "item-icon-Fence",
+    "kind": "FenceVerticalWood",
+    "model": "FenceVerticalWood4",
+    "name": "vertical-board fence"
+  },
+  "60621": {
+    "heldItemID": 11712,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLattice",
+    "model": "FenceLattice8",
+    "name": "lattice fence"
+  },
+  "60622": {
+    "heldItemID": 11712,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLattice",
+    "model": "FenceLattice7",
+    "name": "lattice fence"
+  },
+  "60623": {
+    "heldItemID": 11712,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLattice",
+    "model": "FenceLattice5",
+    "name": "lattice fence"
+  },
+  "60624": {
+    "heldItemID": 11712,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLattice",
+    "model": "FenceLattice6",
+    "name": "lattice fence"
+  },
+  "60625": {
+    "heldItemID": 11712,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLattice",
+    "model": "FenceLattice4",
+    "name": "lattice fence"
+  },
+  "60626": {
+    "heldItemID": 5208,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLatticeBig",
+    "model": "FenceLatticeBig8",
+    "name": "large lattice fence"
+  },
+  "60627": {
+    "heldItemID": 5208,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLatticeBig",
+    "model": "FenceLatticeBig7",
+    "name": "large lattice fence"
+  },
+  "60628": {
+    "heldItemID": 5208,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLatticeBig",
+    "model": "FenceLatticeBig5",
+    "name": "large lattice fence"
+  },
+  "60629": {
+    "heldItemID": 5208,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLatticeBig",
+    "model": "FenceLatticeBig6",
+    "name": "large lattice fence"
+  },
+  "60630": {
+    "heldItemID": 5208,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLatticeBig",
+    "model": "FenceLatticeBig3",
+    "name": "large lattice fence"
+  },
+  "60631": {
+    "heldItemID": 5208,
+    "icon": "item-icon-Fence",
+    "kind": "FenceLatticeBig",
+    "model": "FenceLatticeBig4",
+    "name": "large lattice fence"
+  },
+  "60632": {
+    "heldItemID": 5207,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJapanese",
+    "model": "FenceJapanese8",
+    "name": "zen fence"
+  },
+  "60633": {
+    "heldItemID": 5207,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJapanese",
+    "model": "FenceJapanese7",
+    "name": "zen fence"
+  },
+  "60634": {
+    "heldItemID": 5207,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJapanese",
+    "model": "FenceJapanese5",
+    "name": "zen fence"
+  },
+  "60635": {
+    "heldItemID": 5207,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJapanese",
+    "model": "FenceJapanese6",
+    "name": "zen fence"
+  },
+  "60636": {
+    "heldItemID": 5207,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJapanese",
+    "model": "FenceJapanese2",
+    "name": "zen fence"
+  },
+  "60637": {
+    "heldItemID": 5207,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJapanese",
+    "model": "FenceJapanese3",
+    "name": "zen fence"
+  },
+  "60638": {
+    "heldItemID": 5207,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJapanese",
+    "model": "FenceJapanese4",
+    "name": "zen fence"
+  },
+  "60639": {
+    "heldItemID": 4357,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSteel",
+    "model": "FenceSteel2",
+    "name": "iron fence"
+  },
+  "60640": {
+    "heldItemID": 4357,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSteel",
+    "model": "FenceSteel3",
+    "name": "iron fence"
+  },
+  "60641": {
+    "heldItemID": 4357,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSteel",
+    "model": "FenceSteel4",
+    "name": "iron fence"
+  },
+  "60642": {
+    "heldItemID": 14757,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSandProtection",
+    "model": "FenceSandProtection",
+    "name": "bamboo-slats fence"
+  },
+  "60643": {
+    "heldItemID": 14755,
+    "icon": "item-icon-Fence",
+    "kind": "FenceCrossedBamboo",
+    "model": "FenceCrossedBamboo",
+    "name": "green bamboo fence"
+  },
+  "60644": {
+    "heldItemID": 14756,
+    "icon": "item-icon-Fence",
+    "kind": "FenceIce",
+    "model": "FenceIce",
+    "name": "frozen fence"
+  },
+  "60646": {
+    "heldItemID": 14756,
+    "icon": "item-icon-Fence",
+    "kind": "FenceIce",
+    "model": "FenceIce05",
+    "name": "frozen fence"
+  },
+  "60647": {
+    "heldItemID": 14756,
+    "icon": "item-icon-Fence",
+    "kind": "FenceIce",
+    "model": "FenceIce04",
+    "name": "frozen fence"
+  },
+  "60648": {
+    "heldItemID": 14756,
+    "icon": "item-icon-Fence",
+    "kind": "FenceIce",
+    "model": "FenceIce06",
+    "name": "frozen fence"
+  },
+  "60649": {
+    "heldItemID": 14756,
+    "icon": "item-icon-Fence",
+    "kind": "FenceIce",
+    "model": "FenceIce01",
+    "name": "frozen fence"
+  },
+  "60650": {
+    "heldItemID": 14756,
+    "icon": "item-icon-Fence",
+    "kind": "FenceIce",
+    "model": "FenceIce02",
+    "name": "frozen fence"
+  },
+  "60651": {
+    "heldItemID": 14756,
+    "icon": "item-icon-Fence",
+    "kind": "FenceIce",
+    "model": "FenceIce03",
+    "name": "frozen fence"
+  },
+  "60660": {
+    "heldItemID": 12478,
+    "icon": "item-icon-PltBushOsmathusYellow",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus5Yello",
+    "name": "yellow-tea-olive bush"
+  },
+  "60661": {
+    "heldItemID": 12478,
+    "icon": "item-icon-PltBushOsmathusYellow",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus4Yello",
+    "name": "yellow-tea-olive bush"
+  },
+  "60662": {
+    "heldItemID": 12477,
+    "icon": "item-icon-PltBushOsmathusYellow",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus2Yello",
+    "name": "young yellow tea olive"
+  },
+  "60663": {
+    "heldItemID": 12478,
+    "icon": "item-icon-PltBushOsmathusYellow",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus3Yello",
+    "name": "yellow-tea-olive bush"
+  },
+  "60664": {
+    "heldItemID": 12753,
+    "icon": "item-icon-PltBushOsmathusYellow",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus1Yello",
+    "name": "yellow-tea-olive nursery"
+  },
+  "60665": {
+    "heldItemID": 12482,
+    "icon": "item-icon-PltBushOsmathusOrange",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus5Orange",
+    "name": "orange-tea-olive bush"
+  },
+  "60666": {
+    "heldItemID": 12482,
+    "icon": "item-icon-PltBushOsmathusOrange",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus4Orange",
+    "name": "orange-tea-olive bush"
+  },
+  "60667": {
+    "heldItemID": 12482,
+    "icon": "item-icon-PltBushOsmathusOrange",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus3Orange",
+    "name": "orange-tea-olive bush"
+  },
+  "60668": {
+    "heldItemID": 12754,
+    "icon": "item-icon-PltBushOsmathusOrange",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus1Orange",
+    "name": "orange-tea-olive nursery"
+  },
+  "60669": {
+    "heldItemID": 12481,
+    "icon": "item-icon-PltBushOsmathusOrange",
+    "kind": "PltBushOsmanthus",
+    "model": "PltBushOsmathus2Orange",
+    "name": "young orange tea olive"
+  },
+  "60670": {
+    "heldItemID": 12756,
+    "icon": "item-icon-PltBushCamelliaPink",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia1Pink",
+    "name": "pink-camellia nursery"
+  },
+  "60671": {
+    "heldItemID": 12491,
+    "icon": "item-icon-PltBushCamelliaPink",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia2Pink",
+    "name": "young pink camellia"
+  },
+  "60672": {
+    "heldItemID": 12492,
+    "icon": "item-icon-PltBushCamelliaPink",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia3Pink",
+    "name": "pink-camellia bush"
+  },
+  "60673": {
+    "heldItemID": 12492,
+    "icon": "item-icon-PltBushCamelliaPink",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia4Pink",
+    "name": "pink-camellia bush"
+  },
+  "60674": {
+    "heldItemID": 12755,
+    "icon": "item-icon-PltBushCamelliaRed",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia1Red",
+    "name": "red-camellia nursery"
+  },
+  "60675": {
+    "heldItemID": 12492,
+    "icon": "item-icon-PltBushCamelliaPink",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia5Pink",
+    "name": "pink-camellia bush"
+  },
+  "60676": {
+    "heldItemID": 12488,
+    "icon": "item-icon-PltBushCamelliaRed",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia2Red",
+    "name": "young red camellia"
+  },
+  "60677": {
+    "heldItemID": 12489,
+    "icon": "item-icon-PltBushCamelliaRed",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia3Red",
+    "name": "red-camellia bush"
+  },
+  "60678": {
+    "heldItemID": 12489,
+    "icon": "item-icon-PltBushCamelliaRed",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia4Red",
+    "name": "red-camellia bush"
+  },
+  "60679": {
+    "heldItemID": 12489,
+    "icon": "item-icon-PltBushCamelliaRed",
+    "kind": "PltBushCamellia",
+    "model": "PltBushCamellia5Red",
+    "name": "red-camellia bush"
+  },
+  "60680": {
+    "heldItemID": 12758,
+    "icon": "item-icon-Fence",
+    "kind": "FenceIkegaki",
+    "model": "FenceIkegaki",
+    "name": "hedge"
+  },
+  "60681": {
+    "heldItemID": 12894,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJuneBride",
+    "model": "FenceJuneBride4",
+    "name": "wedding fence"
+  },
+  "60682": {
+    "heldItemID": 12894,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJuneBride",
+    "model": "FenceJuneBride2",
+    "name": "wedding fence"
+  },
+  "60683": {
+    "heldItemID": 12894,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJuneBride",
+    "model": "FenceJuneBride3",
+    "name": "wedding fence"
+  },
+  "60684": {
+    "heldItemID": 12630,
+    "icon": "item-icon-Fence",
+    "kind": "FenceEasterEgg",
+    "model": "FenceEasterEgg",
+    "name": "Bunny Day fence"
+  },
+  "60685": {
+    "heldItemID": 12894,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJuneBride",
+    "model": "FenceJuneBride",
+    "name": "wedding fence"
+  },
+  "60686": {
+    "heldItemID": 12894,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJuneBride",
+    "model": "FenceJuneBride1",
+    "name": "wedding fence"
+  },
+  "60687": {
+    "heldItemID": 12550,
+    "icon": "item-icon-PltWeedLight",
+    "kind": "PltWeedLight",
+    "model": "PltWeedLight3",
+    "name": "glowing moss"
+  },
+  "60688": {
+    "heldItemID": 12550,
+    "icon": "item-icon-PltWeedLight",
+    "kind": "PltWeedLight",
+    "model": "PltWeedLight2C",
+    "name": "glowing moss"
+  },
+  "60689": {
+    "heldItemID": 12550,
+    "icon": "item-icon-PltWeedLight",
+    "kind": "PltWeedLight",
+    "model": "PltWeedLight2B",
+    "name": "glowing moss"
+  },
+  "60690": {
+    "heldItemID": 12550,
+    "icon": "item-icon-PltWeedLight",
+    "kind": "PltWeedLight",
+    "model": "PltWeedLight1A",
+    "name": "glowing moss"
+  },
+  "60691": {
+    "heldItemID": 12550,
+    "icon": "item-icon-PltWeedLight",
+    "kind": "PltWeedLight",
+    "model": "PltWeedLight2A",
+    "name": "glowing moss"
+  },
+  "60692": {
+    "heldItemID": 12550,
+    "icon": "item-icon-PltWeedLight",
+    "kind": "PltWeedLight",
+    "model": "PltWeedLight1B",
+    "name": "glowing moss"
+  },
+  "60693": {
+    "heldItemID": 12550,
+    "icon": "item-icon-PltWeedLight",
+    "kind": "PltWeedLight",
+    "model": "PltWeedLight1C",
+    "name": "glowing moss"
+  },
+  "60694": {
+    "heldItemID": 2799,
+    "icon": "item-icon-PltOak",
+    "kind": "PltTreeOak",
+    "model": "PltTreeEasterEgg",
+    "name": "hardwood tree"
+  },
+  "60695": {
+    "heldItemID": 12551,
+    "icon": "item-icon-PltVine",
+    "kind": "PltVine",
+    "model": "PltVine",
+    "name": "vine"
+  },
+  "60705": {
+    "heldItemID": 14278,
+    "icon": "item-icon-Fence",
+    "kind": "FenceMermaid",
+    "model": "FenceMermaid",
+    "name": "mermaid fence"
+  },
+  "60709": {
+    "heldItemID": 13275,
+    "icon": "item-icon-Fence",
+    "kind": "FenceHalloween",
+    "model": "FenceHalloween",
+    "name": "spooky fence"
+  },
+  "60710": {
+    "heldItemID": 13264,
+    "icon": "item-icon-PltBushPlumeriaPink",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria4Pink",
+    "name": "pink-plumeria bush"
+  },
+  "60711": {
+    "heldItemID": 13264,
+    "icon": "item-icon-PltBushPlumeriaPink",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria3Pink",
+    "name": "pink-plumeria bush"
+  },
+  "60712": {
+    "heldItemID": 13263,
+    "icon": "item-icon-PltBushPlumeriaPink",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria1Pink",
+    "name": "young pink plumeria"
+  },
+  "60713": {
+    "heldItemID": 13264,
+    "icon": "item-icon-PltBushPlumeriaPink",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria2Pink",
+    "name": "pink-plumeria bush"
+  },
+  "60714": {
+    "heldItemID": 13265,
+    "icon": "item-icon-PltBushPlumeriaPink",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria0Pink",
+    "name": "pink-plumeria nursery"
+  },
+  "60715": {
+    "heldItemID": 13350,
+    "icon": "item-icon-PltBushPlumeriaWhite",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria4White",
+    "name": "white-plumeria bush"
+  },
+  "60716": {
+    "heldItemID": 13350,
+    "icon": "item-icon-PltBushPlumeriaWhite",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria3White",
+    "name": "white-plumeria bush"
+  },
+  "60717": {
+    "heldItemID": 13350,
+    "icon": "item-icon-PltBushPlumeriaWhite",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria2White",
+    "name": "white-plumeria bush"
+  },
+  "60718": {
+    "heldItemID": 13351,
+    "icon": "item-icon-PltBushPlumeriaWhite",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria0White",
+    "name": "white-plumeria nursery"
+  },
+  "60719": {
+    "heldItemID": 13349,
+    "icon": "item-icon-PltBushPlumeriaWhite",
+    "kind": "PltBushPlumeria",
+    "model": "PltBushPlumeria1White",
+    "name": "young white plumeria"
+  },
+  "60720": {
+    "heldItemID": 12551,
+    "icon": "item-icon-PltVine",
+    "kind": "PltVine",
+    "model": "PltVineC",
+    "name": "vine"
+  },
+  "60721": {
+    "heldItemID": 12551,
+    "icon": "item-icon-PltVine",
+    "kind": "PltVine",
+    "model": "PltVineB",
+    "name": "vine"
+  },
+  "60723": {
+    "heldItemID": 13534,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitC",
+    "model": "LadderKitC2",
+    "name": "iron ladder set-up kit"
+  },
+  "60724": {
+    "heldItemID": 13534,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitC",
+    "model": "LadderKitC0",
+    "name": "iron ladder set-up kit"
+  },
+  "60725": {
+    "heldItemID": 13534,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitC",
+    "model": "LadderKitC1",
+    "name": "iron ladder set-up kit"
+  },
+  "60726": {
+    "heldItemID": 13530,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitB",
+    "model": "LadderKitB0",
+    "name": "wooden ladder set-up kit"
+  },
+  "60727": {
+    "heldItemID": 13530,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitB",
+    "model": "LadderKitB1",
+    "name": "wooden ladder set-up kit"
+  },
+  "60728": {
+    "heldItemID": 13530,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitB",
+    "model": "LadderKitB2",
+    "name": "wooden ladder set-up kit"
+  },
+  "60729": {
+    "heldItemID": 13530,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitB",
+    "model": "LadderKitB3",
+    "name": "wooden ladder set-up kit"
+  },
+  "60730": {
+    "heldItemID": 13526,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitA",
+    "model": "LadderKitA0",
+    "name": "vine ladder set-up kit"
+  },
+  "60731": {
+    "heldItemID": 13526,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitA",
+    "model": "LadderKitA1",
+    "name": "vine ladder set-up kit"
+  },
+  "60732": {
+    "heldItemID": 13526,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitA",
+    "model": "LadderKitA2",
+    "name": "vine ladder set-up kit"
+  },
+  "60735": {
+    "heldItemID": 3052,
+    "icon": "item-icon-PltSquashOrange",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash0",
+    "name": "small pumpkin sprout"
+  },
+  "60736": {
+    "heldItemID": 3053,
+    "icon": "item-icon-PltSquashOrange",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash1",
+    "name": "medium pumpkin sprout"
+  },
+  "60737": {
+    "heldItemID": 4362,
+    "icon": "item-icon-PltSquashOrange",
+    "kind": "PltVgtPumpkin",
+    "model": "PltVgtSquash2",
+    "name": "large pumpkin sprout"
+  },
+  "60738": {
+    "heldItemID": 14470,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitD",
+    "model": "LadderKitD",
+    "name": "golden ladder set-up kit"
+  },
+  "60739": {
+    "heldItemID": 13530,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitB",
+    "model": "LadderKitB4",
+    "name": "wooden ladder set-up kit"
+  },
+  "60740": {
+    "heldItemID": 13530,
+    "icon": "item-icon-FixedLadder",
+    "kind": "LadderKitB",
+    "model": "LadderKitB5",
+    "name": "wooden ladder set-up kit"
+  },
+  "60742": {
+    "icon": "item-icon-Fence",
+    "kind": "FenceGardenPegRope",
+    "model": "FenceGardenPegRope",
+    "name": "Garden rope fence"
+  },
+  "60743": {
+    "heldItemID": 14758,
+    "icon": "item-icon-Fence",
+    "kind": "FenceCorrugatedIron",
+    "model": "FenceCorrugatedIron",
+    "name": "corrugated iron fence"
+  },
+  "60744": {
+    "heldItemID": 14759,
+    "icon": "item-icon-Fence",
+    "kind": "FencePark",
+    "model": "FencePark",
+    "name": "park fence"
+  },
+  "60745": {
+    "heldItemID": 14759,
+    "icon": "item-icon-Fence",
+    "kind": "FencePark",
+    "model": "FencePark2",
+    "name": "park fence"
+  },
+  "60746": {
+    "heldItemID": 14759,
+    "icon": "item-icon-Fence",
+    "kind": "FencePark",
+    "model": "FencePark5",
+    "name": "park fence"
+  },
+  "60747": {
+    "heldItemID": 14759,
+    "icon": "item-icon-Fence",
+    "kind": "FencePark",
+    "model": "FencePark4",
+    "name": "park fence"
+  },
+  "60748": {
+    "heldItemID": 14759,
+    "icon": "item-icon-Fence",
+    "kind": "FencePark",
+    "model": "FencePark6",
+    "name": "park fence"
+  },
+  "60749": {
+    "heldItemID": 14759,
+    "icon": "item-icon-Fence",
+    "kind": "FencePark",
+    "model": "FencePark3",
+    "name": "park fence"
+  },
+  "60750": {
+    "heldItemID": 14759,
+    "icon": "item-icon-Fence",
+    "kind": "FencePark",
+    "model": "FencePark8",
+    "name": "park fence"
+  },
+  "60751": {
+    "heldItemID": 14759,
+    "icon": "item-icon-Fence",
+    "kind": "FencePark",
+    "model": "FencePark7",
+    "name": "park fence"
+  },
+  "60752": {
+    "heldItemID": 14758,
+    "icon": "item-icon-Fence",
+    "kind": "FenceCorrugatedIron",
+    "model": "FenceCorrugatedIron1",
+    "name": "corrugated iron fence"
+  },
+  "60753": {
+    "heldItemID": 14758,
+    "icon": "item-icon-Fence",
+    "kind": "FenceCorrugatedIron",
+    "model": "FenceCorrugatedIron2",
+    "name": "corrugated iron fence"
+  },
+  "60754": {
+    "heldItemID": 14758,
+    "icon": "item-icon-Fence",
+    "kind": "FenceCorrugatedIron",
+    "model": "FenceCorrugatedIron3",
+    "name": "corrugated iron fence"
+  },
+  "60755": {
+    "heldItemID": 14758,
+    "icon": "item-icon-Fence",
+    "kind": "FenceCorrugatedIron",
+    "model": "FenceCorrugatedIron5",
+    "name": "corrugated iron fence"
+  },
+  "60756": {
+    "heldItemID": 14758,
+    "icon": "item-icon-Fence",
+    "kind": "FenceCorrugatedIron",
+    "model": "FenceCorrugatedIron4",
+    "name": "corrugated iron fence"
+  },
+  "60757": {
+    "heldItemID": 4357,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSteel",
+    "model": "FenceSteel8",
+    "name": "iron fence"
+  },
+  "60758": {
+    "heldItemID": 4357,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSteel",
+    "model": "FenceSteel7",
+    "name": "iron fence"
+  },
+  "60759": {
+    "heldItemID": 4357,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSteel",
+    "model": "FenceSteel6",
+    "name": "iron fence"
+  },
+  "60760": {
+    "heldItemID": 4357,
+    "icon": "item-icon-Fence",
+    "kind": "FenceSteel",
+    "model": "FenceSteel5",
+    "name": "iron fence"
+  },
+  "60761": {
+    "heldItemID": 14758,
+    "icon": "item-icon-Fence",
+    "kind": "FenceCorrugatedIron",
+    "model": "FenceCorrugatedIron6",
+    "name": "corrugated iron fence"
+  },
+  "60762": {
+    "heldItemID": 14758,
+    "icon": "item-icon-Fence",
+    "kind": "FenceCorrugatedIron",
+    "model": "FenceCorrugatedIron7",
+    "name": "corrugated iron fence"
+  },
+  "60763": {
+    "heldItemID": 3402,
+    "icon": "item-icon-Fence",
+    "kind": "FenceVerticalWood",
+    "model": "FenceVerticalWood8",
+    "name": "vertical-board fence"
+  },
+  "60764": {
+    "heldItemID": 3402,
+    "icon": "item-icon-Fence",
+    "kind": "FenceVerticalWood",
+    "model": "FenceVerticalWood7",
+    "name": "vertical-board fence"
+  },
+  "60765": {
+    "heldItemID": 12894,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJuneBride",
+    "model": "FenceJuneBride7",
+    "name": "wedding fence"
+  },
+  "60766": {
+    "heldItemID": 12894,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJuneBride",
+    "model": "FenceJuneBride6",
+    "name": "wedding fence"
+  },
+  "60767": {
+    "heldItemID": 12894,
+    "icon": "item-icon-Fence",
+    "kind": "FenceJuneBride",
+    "model": "FenceJuneBride5",
+    "name": "wedding fence"
+  }
+}
