@@ -20,3 +20,7 @@ The Inventory Tiles app icon (selected concept 6) and saved Leaf & Pencil altern
 ## Original building illustrations
 
 The 14 `building-icon-*.png` files are original AI-generated fan artwork produced with the built-in imagegen tool for this Mac editor. They are inspired by Animal Crossing and are not official Nintendo or NHSE assets. Prompts and spacing sources are recorded in `Design/Map/`. Existing Nintendo/NHSE inventory and character artwork retains the attribution above.
+
+## Outdoor-object display metadata
+
+`field-objects.json` and `scripts/reference/FieldItemList.cs` derive from NHSE's `NHSE.Core/Structures/Item/FieldItem/FieldItemList.cs` at the revision in `REFERENCE-REVISION.txt` (GPL-3.0). `scripts/import-field-objects.py` joins these definitions with the existing English item names and inventory icon resources. Explicit English labels are supplied for field objects without inventory equivalents. Rock variants share the existing Nintendo/NHSE OreStone category artwork; simple stump and hole category symbols are drawn natively by this port. This display metadata does not rewrite game IDs or add field objects to pocket-item placement lists.

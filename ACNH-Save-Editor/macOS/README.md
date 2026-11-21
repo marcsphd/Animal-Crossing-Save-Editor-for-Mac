@@ -1,6 +1,6 @@
 # Animal Crossing Save Editor for Mac — Mac guide
 
-Version **2.2** adds Live Pocket Editing for stock nxnative builds on Apple silicon. It also brings Storage’s selection and editing controls to both pocket modes.
+Version **2.3** adds incline style editing, individual overhead bridge and incline icons, corrected infrastructure orientation and click targets, names for 540 known outdoor objects, and a brown rounded plaza marker. Live Pocket Editing from 2.2 remains included.
 
 An independent native SwiftUI macOS adaptation primarily based on [NHSE](https://github.com/kwsch/NHSE), using its save-format research and editor behavior. [cbreezy210/ACNH-Save-Editor](https://github.com/cbreezy210/ACNH-Save-Editor) provided the initial foundation and selected save-cryptography routines. Requires macOS 14 or later. The universal build supports Apple silicon and Intel Macs. Works offline without third-party runtimes.
 
@@ -78,6 +78,12 @@ Backups and loadouts are stored in `~/Library/Application Support/ACNH Save Edit
 Shortcuts: **⌘O** open, **⌘S** review, **⇧⌘S** export, **⌘Z** undo, **⇧⌘Z** redo.
 
 ## Map and villager scope
+
+Outdoor-item names cover the 540 known NHSE field-object definitions, including rocks, trees, flowers, stumps, holes, and fences. Their saved IDs remain visible in the inspector. Rocks use a shared stone thumbnail; stumps and holes use simple category symbols. Truly unmapped IDs retain the “Unknown item” label and code.
+
+The map and Buildings inspector show individual overhead icons for all eight bridge and eight incline styles. Icons follow style edits, undo/redo, and revert; map artwork preserves its proportions and rotates with the structure.
+
+To change an incline’s appearance, open **Island Map → Buildings**, select the incline on the map or in the Building menu, and choose **Incline style**. All eight standard styles are available. Style edits support review, undo/redo, revert, save, and export, and preserve position, rotation, and other saved fields. **Revert Incline Style** resets only the style; **Revert Building** also resets movement and rotation.
 
 This is a partial NHSE port. Player Settings and Storage currently edit the primary human resident only; appearance, additional-player editing, storage-capacity upgrades, inventory-file import/export, progression flags, recipes, reactions, house interiors, and NHSE's other advanced editors are not included. Supporting other residents' files for identity propagation does not expose their settings for editing.
 
