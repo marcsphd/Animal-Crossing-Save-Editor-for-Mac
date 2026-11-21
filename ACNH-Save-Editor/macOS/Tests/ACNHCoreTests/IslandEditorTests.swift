@@ -70,7 +70,7 @@ final class IslandEditorTests: XCTestCase {
         XCTAssertEqual(bridge.subtype, 52)
         XCTAssertEqual(bridge.position, draft.island.buildings[index])
         XCTAssertEqual(reopened.main[offset + 10], 11)
-        XCTAssertEqual(BuildingFootprint.forBuilding(bridge)?.width, 7)
+        XCTAssertEqual(BuildingFootprint.forBuilding(bridge)?.depth, 7)
         XCTAssertEqual(reopened.personal, session.personal)
         assertOnlyChanges(session.main, reopened.main, ranges: [(offset + 2)..<(offset + 7), (offset + 8)..<(offset + 11)])
         try session.ensureUnchanged()
