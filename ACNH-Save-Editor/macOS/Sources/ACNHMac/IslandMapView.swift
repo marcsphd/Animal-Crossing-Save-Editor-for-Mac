@@ -334,6 +334,7 @@ struct IslandMapView: View {
                 }
                 if !item.isEmpty {
                     Text("Root at (\((root % IslandLayout.fieldCount) / 192), \(root % 192))").font(.caption.monospaced()).foregroundStyle(.secondary)
+                    Text(String(format: "Item ID: %04X", item.id)).font(.caption.monospaced()).foregroundStyle(.secondary)
                 }
                 HStack {
                     Button("Copy") { copyToPasteboard() }.disabled(item.isEmpty || model.busy).help("Copy object and footprint (⌘C)")
@@ -380,7 +381,7 @@ struct IslandMapView: View {
                         let index = buildings.contains(where: { $0.id == selectedBuilding }) ? selectedBuilding : buildings[0].id
                         let building = world.building(index, edits: edits)
                         HStack(spacing: 12) {
-                            BuildingIcon(kind: building.kind)
+                            BuildingIcon(kind: building.kind, subtype: building.subtype)
                             Text(building.name).font(.headline)
                         }
                         if let footprint = BuildingFootprint.forBuilding(building) {
@@ -392,6 +393,7 @@ struct IslandMapView: View {
                                 .font(.caption).foregroundStyle(.secondary)
                         }
                         if building.kind == 26 { bridgeStyleInspector(building) }
+                        if building.kind == 27 { inclineStyleInspector(building) }
                         Toggle("Show plot guides", isOn: $showBuildingGuides).toggleStyle(.checkbox)
                         Text("Coordinates in half tiles").font(.caption).foregroundStyle(.secondary)
                         Stepper("X: \(building.position.x)", value: buildingBinding(index, \.x), in: 0...UInt16(IslandLayout.buildingWidth - 1))
@@ -399,10 +401,11 @@ struct IslandMapView: View {
                         Picker("Rotation", selection: Binding(get: { Int(building.position.angle) }, set: { value in
                             model.change { draft in var p = building.position; p.angle = UInt8(value); draft.island.buildings[index] = p }
                         })) { ForEach(0..<4) { Text("\($0 * 90)°").tag($0) } }
-                        if edits.buildings[index] != nil || edits.bridgeTypes[index] != nil {
+                        if edits.buildings[index] != nil || edits.bridgeTypes[index] != nil || edits.inclineTypes[index] != nil {
                             Button("Revert Building") { model.change {
                                 $0.island.buildings.removeValue(forKey: index)
                                 $0.island.bridgeTypes.removeValue(forKey: index)
+                                $0.island.inclineTypes.removeValue(forKey: index)
                             } }
                         }
                         Text("Each X or Y step moves the building half a terrain tile. Moving a building preserves its identity, interior, and other settings. Place it on clear, accessible land; collision and bridge/incline connections need manual checking.")
@@ -428,6 +431,25 @@ struct IslandMapView: View {
             }
         } else {
             Text("Unknown bridge type (\(building.subtype)). Style changes require a recognized bridge model.")
+                .font(.caption).foregroundStyle(.secondary)
+        }
+    }
+    @ViewBuilder private func inclineStyleInspector(_ building: MapBuilding) -> some View {
+        if let currentStyle = InclineStyle(rawValue: building.subtype) {
+            Picker("Incline style", selection: Binding(get: { currentStyle }, set: { style in
+                model.change { $0.island.inclineTypes[building.id] = style.rawValue }
+            })) {
+                ForEach(InclineStyle.allCases.filter { $0 != .reserved || currentStyle == .reserved }) { style in
+                    Text(style.name).tag(style)
+                }
+            }
+            Text("Changing style preserves the incline’s position, rotation, and other settings.")
+                .font(.caption).foregroundStyle(.secondary)
+            if edits.inclineTypes[building.id] != nil {
+                Button("Revert Incline Style") { model.change { $0.island.inclineTypes.removeValue(forKey: building.id) } }
+            }
+        } else {
+            Text("Unknown incline type (\(building.subtype)). Style changes require a recognized incline model.")
                 .font(.caption).foregroundStyle(.secondary)
         }
     }
@@ -482,6 +504,12 @@ struct IslandMapView: View {
             for i in 0...9 { acres.move(to: CGPoint(x: Double(i * 16) * cell, y: 0)); acres.addLine(to: CGPoint(x: Double(i * 16) * cell, y: 128 * cell)) }
             for i in 0...8 { acres.move(to: CGPoint(x: 0, y: Double(i * 16) * cell)); acres.addLine(to: CGPoint(x: 144 * cell, y: Double(i * 16) * cell)) }
             context.stroke(acres, with: .color(.white.opacity(0.18)), lineWidth: 1)
+            let plazaRect = MapCoordinates.plazaBounds(world.plaza(edits: edits), zoom: cell)
+            let plazaShape = Path(roundedRect: plazaRect, cornerRadius: cell * 0.6)
+            if showBuildings || layer == .buildings {
+                // Ground surface belongs behind outdoor objects and building artwork.
+                context.fill(plazaShape, with: .color(Color(red: 0.64, green: 0.46, blue: 0.30)))
+            }
             if showItems || layer == .items {
                 // Resolve each artwork once per frame, even on densely planted islands.
                 var artwork: [UInt16: GraphicsContext.ResolvedImage] = [:]
@@ -510,12 +538,11 @@ struct IslandMapView: View {
                 }
             }
             if showBuildings || layer == .buildings {
-                let plazaRect = MapCoordinates.plazaBounds(world.plaza(edits: edits), zoom: cell)
                 let plazaSelected = selectedBuilding == IslandLayout.plazaSelectionID && layer == .buildings
-                context.fill(Path(plazaRect), with: .color(Color.brown.opacity(plazaSelected ? 0.28 : 0.14)))
-                context.stroke(Path(plazaRect), with: .color(plazaSelected ? Color.island : .white.opacity(0.65)),
-                               style: StrokeStyle(lineWidth: plazaSelected ? 2 : 1, dash: [4, 3]))
-                context.draw(Text("Plaza").font(.system(size: 11, weight: .semibold)).foregroundColor(.primary),
+                if plazaSelected {
+                    context.stroke(plazaShape, with: .color(Color.island), lineWidth: 2)
+                }
+                context.draw(Text("Plaza").font(.system(size: 11, weight: .semibold)).foregroundColor(.white),
                              at: CGPoint(x: plazaRect.midX, y: plazaRect.maxY - 8))
                 for index in 0..<IslandLayout.buildingCount {
                     let building = world.building(index, edits: edits)
@@ -532,17 +559,19 @@ struct IslandMapView: View {
                                 with: .color(Color.island.opacity(0.8)), style: StrokeStyle(lineWidth: 1, dash: [4, 3]))
                         }
                     }
-                    if let artwork = BuildingIconStore.shared.image(for: building.kind) {
+                    if let artwork = BuildingIconStore.shared.image(for: building.kind, subtype: building.subtype) {
                         let image = context.resolve(Image(nsImage: artwork))
                         let side = max(10, min(rect.width, rect.height))
                         var iconContext = context
                         iconContext.translateBy(x: point.x, y: point.y)
                         if building.kind == 26 || building.kind == 27 {
-                            // Cardinal orientation plus the diagonal model's intrinsic turn.
-                            let diagonal = BuildingFootprint.isDiagonalBridge(building) ? 45.0 : 0
-                            iconContext.rotate(by: .degrees(Double(building.position.angle) * 90 + diagonal))
+                            let placement = InfrastructureIconPlacement(building: building, imageSize: artwork.size, bounds: rect.size)
+                            iconContext.rotate(by: .degrees(placement.rotation))
+                            iconContext.draw(image, in: CGRect(x: -placement.size.width / 2, y: -placement.size.height / 2,
+                                                              width: placement.size.width, height: placement.size.height))
+                        } else {
+                            iconContext.draw(image, in: CGRect(x: -side / 2, y: -side / 2, width: side, height: side))
                         }
-                        iconContext.draw(image, in: CGRect(x: -side / 2, y: -side / 2, width: side, height: side))
                     } else {
                         context.draw(Image(systemName: "building.2.fill"), at: CGPoint(x: point.x, y: point.y))
                     }
