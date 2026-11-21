@@ -1,5 +1,17 @@
 import Foundation
 
+/// Converts the saved infrastructure angle to our north-up, vertical-base artwork.
+/// Angle 0 has an east-west span; angle 1 has a north-south span.
+/// Only presentation changes: the stored angle is never normalized or rewritten.
+public enum InfrastructureOrientation {
+    public static func spriteQuarterTurns(for angle: UInt8) -> Int { (Int(angle) + 1) % 4 }
+
+    public static func rotationDegrees(for building: MapBuilding) -> Double {
+        let diagonal = building.kind == 26 && BridgeType(building.subtype)?.isDiagonal == true
+        return Double(spriteQuarterTurns(for: building.position.angle)) * 90 + (diagonal ? 45 : 0)
+    }
+}
+
 /// Placement-plot dimensions in full terrain tiles, not model collision bounds.
 /// Sources and outstanding alignment checks: Design/Map/Building-Artwork-and-Spacing.md.
 public struct BuildingFootprint: Equatable {
@@ -17,11 +29,11 @@ public struct BuildingFootprint: Equatable {
         case 24: size = (5, 4)
         case 27:
             guard building.position.angle < 4 else { return nil }
-            size = building.position.angle % 2 == 0 ? (2, 4) : (4, 2)
+            size = InfrastructureOrientation.spriteQuarterTurns(for: building.position.angle) % 2 == 0 ? (2, 4) : (4, 2)
         case 26:
             guard building.position.angle < 4, let span = bridgeSpan(building.subtype) else { return nil }
             // Straight bridges include one bank tile at each end.
-            size = building.position.angle % 2 == 0 ? (4, span + 2) : (span + 2, 4)
+            size = InfrastructureOrientation.spriteQuarterTurns(for: building.position.angle) % 2 == 0 ? (4, span + 2) : (span + 2, 4)
         default: return nil
         }
         return BuildingFootprint(width: size.0, depth: size.1,
